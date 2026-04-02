@@ -1,0 +1,67 @@
+﻿l_spanish:
+  
+  giga_gas_giant_home_system_NAME:0 "Inicio en un Gigante Gaseoso"
+  giga_gas_giant_home_system_DESC:0 "Comienza en un gigante gaseoso habitable con tu mundo natal original destruido."
+  origin_gas_giant:0 "Volemos al Gigante Gaseoso"
+  origin_gas_giant_desc:0 "Esta especie perdió su mundo natal durante su temprana era espacial cuando un cometa gigante se estrelló en él. Afortunadamente, ya poseían suficiente infraestructura en el espacio para evitar la extinción total. Y un gigante gaseoso con una atmósfera inusualmente tranquila que estaban utilizando para la minería de combustible se convirtió en su nuevo hogar."
+  origin_gas_giant_robot:99 "Gas Giant Liftoff"
+  origin_gas_giant_robot_desc:99 "During this empire's early space age their homeworld was struck by a stray comet. Already possessed enough infrastructure in space to survive temporarily, a gas giant mining station became their new home. Over the years the gas giant has fulfilled their needs many times over, bringing new insights into the various gases that occur in the galaxy. Due to an abundance of exotic gases during this empire's development, improved industrial techniques using these gases have been refined, albeit with a reliance on these gases for even the most basic industry."
+  
+  origin_gas_giant_effects:0 "Comienza en un $pc_habitable_gas_giant$ con tu mundo natal original destruido.\n- Obtén acceso a la tecnología £engineering_research£ §L$tech_space_mining_1$§!.\n- Obtén acceso a la tecnología £society_research£ §L$tech_hydroponics$§! si el imperio tiene poblaciones biológicos."
+  origin_gas_giant_effects_robot:99 "- $HOMEWORLD$ ['concept_giga_habitable_gas_giant'] (Size: £planetsize£ 16-28)$NEW_LINE$- Species Trait:$TABBED_NEW_LINE$- ['trait:trait_giga_gas_giant_hab_robot']$NEW_LINE$- $ADDITONAL_TECHNOLOGIES_STRING$ ['technology:tech_space_mining_1', £engineering_research£ $tech_space_mining_1$]"
+  
+  concept_giga_habitable_gas_giant:99 "$pc_habitable_gas_giant$"
+  concept_giga_habitable_gas_giant_desc:99 "$pc_habitable_gas_giant_desc$"
+  
+  concept_giga_gas_worlds:99 "Gas World"
+  concept_giga_gas_worlds_desc:99 "Habitable gas giants, planets with artificially gas flooded atmosphere, and even some slightly more habitable toxic worlds are categorized as \"Gas Worlds\"."
+  
+  building_giga_gas_giant_habitation_module:0 "Módulo Habitacional del Gigante Gaseoso"
+  building_giga_gas_giant_habitation_module_desc:0 "Colección de instalaciones necesarias para mantener una colonia en un gigante gaseoso ensamblada por la población original de este planeta. Estas instalaciones incluyen reactores para proporcionar energía a la colonia, bahías de atraque para descargar minerales recolectados de las lunas locales y grandes hangares con control climático que pueden ser utilizados para granjas hidropónicas. Además de eso, estas instalaciones sirven como sede para la red de distribución de recursos y proporcionan diversos servicios a las poblaciones locales."
+  
+  trait_giga_gas_giant_hab:99 "Exotic Gas Reliant"
+  trait_giga_gas_giant_hab_desc:99 "§LOver centuries of exposure to exotic gases while living on a gas giant, this species has become somewhat dependent on them in their daily functions.§!"
+  trait_giga_gas_giant_hab_tooltip:99 "§YScience§! and §YIndustrial§! Job Exotic Gas upkeep: §R+0.03§!\n    - Housing Usage on ['concept_giga_gas_worlds', §YGas§!] worlds: §G-10%§!\n    - £job_researcher£ $job_researcher$ upkeep on ['concept_giga_gas_worlds', §YGas§!] worlds: §G-10%§!\n    - Job Exotic Gas upkeep on ['concept_giga_gas_worlds', §YGas§!] worlds: §G-33%§!\n    - Housing Usage on non-['concept_giga_gas_worlds', §YGas§!] worlds: §R+30%§!\n    - Habitability on non-['concept_giga_gas_worlds', §YGas§!] worlds: §R-20%§!\n    - Job Exotic Gas upkeep on non-['concept_giga_gas_worlds', §YGas§!] worlds: §R+50%§!"
+  trait_giga_gas_giant_hab_robot:99 "Exotic Gas-Fueled"
+  trait_giga_gas_giant_hab_robot_desc:99 "§LSmall self-modifications over time has compounded into the near dependency of exotic gases to fuel these machines."
+  trait_giga_gas_giant_hab_robot_tooltip:99 "$trait_giga_gas_giant_hab_tooltip$"
+  
+  giga_gas_giant_hab_colony_tt:99 "Considered a ['concept_giga_gas_worlds', §YGas§!] world for Gas Giant Liftoff Species."
+  
+  giga_gas_giant_hab_colony:99 "Flooded Atmosphere"
+  giga_gas_giant_hab_colony_desc:99 ""
+  
+  decision_giga_flood_atmosphere:99 "Flood Planetary Atmosphere"
+  decision_giga_flood_atmosphere_desc:99 ""
+  
+  d_giga_gas_giant_hab_core:99 "Rich Planetary Core"
+  d_giga_gas_giant_hab_core_desc:99 ""
+  
+  district_giga_gas_giant_habitat_mining:99 "Core Mining Site"
+  district_giga_gas_giant_habitat_mining_plural:99 "Core Mining Sites"
+  district_giga_gas_giant_habitat_mining_desc:99 ""
+  
+  giga_gas_giant_hab:99 "Habitable Gas Giant"
+  
+  giga_gas_giant_hab_desc:99 "Plentiful exotic gases means easy collection, but harsher working conditions for planetary core mining operations."
+  mod_district_giga_gas_giant_habitat_mining_max:99 "Max $district_giga_gas_giant_habitat_mining_plural$"
+  
+  ### Jobs
+  
+  job_giga_gas_extraction_manager:99 "Exotic Gas Extraction Manager"
+  job_giga_gas_extraction_manager_plural:99 "Exotic Gas Extraction Managers"
+  job_giga_gas_extraction_manager_desc:99 "Due to a rich atmosphere or other exotic environment property these administrators ensure our $job_technician_plural$ exploit these resources to the maximum."
+  job_giga_gas_extraction_manager_effect_desc:99 "$job_giga_gas_extraction_manager_swap_plural_with_icon$ collect £exotic_gases£ §Y$exotic_gases$§! and provide £job_technician£ §Y$job_technician_plural$§! with £exotic_gases£ §Y$exotic_gases$§! production"
+  job_giga_gas_extraction_manager_swap_plural_with_icon:99 "[giga_gas_extraction_manager.GetIcon] [giga_gas_extraction_manager.GetNamePlural]"
+  mod_job_giga_gas_extraction_manager_add:99 "[giga_gas_extraction_manager.GetName] Jobs"
+  mod_job_giga_gas_extraction_manager_per_pop:99 "§G+1§! [giga_gas_extraction_manager.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_gas_extraction_manager_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_extraction_manager_add£ per $VALUE$ £pop£"
+  
+  job_giga_gas_extraction_manager_drone:99 "Exotic Gas Extraction Management Cluster"
+  job_giga_gas_extraction_manager_drone_plural:99 "Exotic Gas Extraction Management Clusters"
+  job_giga_gas_extraction_manager_drone_desc:99 "Due to a rich atmosphere or other exotic environment property these administrators ensure our $job_technician_drone_plural$ exploit these resources to the maximum."
+  job_giga_gas_extraction_manager_drone_effect_desc:99 "$job_giga_gas_extraction_manager_drone_swap_plural_with_icon$ collect £exotic_gases£ §Y$exotic_gases$§! and provide £job_technician£ §Y$job_technician_drone_plural$§! with £exotic_gases£ §Y$exotic_gases$§! production"
+  job_giga_gas_extraction_manager_drone_swap_plural_with_icon:99 "[giga_gas_extraction_manager_drone.GetIcon] [giga_gas_extraction_manager_drone.GetNamePlural]"
+  mod_job_giga_gas_extraction_manager_drone_add:99 "[giga_gas_extraction_manager_drone.GetName] Jobs"
+  mod_job_giga_gas_extraction_manager_drone_per_pop:99 "§G+1§! [giga_gas_extraction_manager_drone.GetName] Job per $VALUE$ Pops"
+  mod_job_giga_gas_extraction_manager_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_extraction_manager_add£ per $VALUE$ £pop£"

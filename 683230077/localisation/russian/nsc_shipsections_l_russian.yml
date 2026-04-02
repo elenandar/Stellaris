@@ -1,0 +1,424 @@
+l_russian:
+
+
+#############################################
+############ HULL SIZES #####################
+#############################################
+
+STRIKECRUISER:0 "Ударный крейсер"
+StrikeCruiser:0 "Ударный крейсер"
+StrikeCruiser_cap:0 "Ударный крейсер"
+StrikeCruiser_plural:0 "Ударные крейсеры"
+
+BATTLECRUISER: "Линейный крейсер"
+Battlecruiser: "Линейный крейсер"
+Battlecruiser_cap: "Линейный крейсер"
+Battlecruiser_plural: "Линейные крейсеры"
+
+CARRIER: "Авианосец"
+Carrier: "Авианосец"
+Carrier_plural: "Авианосцы"
+Carrier_cap: "Авианосец"
+
+DREADNOUGHT: "Дредноут"
+Dreadnought: "Дредноут"
+Dreadnought_plural: "Дредноуты"
+Dreadnought_cap: "Дредноут"
+
+FLAGSHIP: "Флагман"
+Flagship: "Флагман"
+Flagship_plural: "Флагманы"
+Flagship_cap: "Флагман"
+
+EXPLORATIONSHIP: "Исследователь"
+explorationship: "Исследователь"
+explorationship_plural: "Исследователи"
+explorationship_cap: "Исследователь"
+
+starbase_stronghold: "Великая цитадель"
+starbase_stronghold_plural: "Великие цитадели"
+starbase_stronghold_cap: "Великая цитадель" 
+
+starbase_headquarters: "Солнечный бастион"
+starbase_headquarters_plural: "Солнечные бастионы"
+starbase_headquarters_cap: "Солнечный бастион"
+
+
+
+
+###################################################
+############ SECTION NAMES ########################
+###################################################
+
+#-------------------------------------------------------------------#
+### CORVETTE_MID_S2PD1: "Picket Core" (In Localisation Replace Folder) ###
+### CORVETTE_MID_S3: "Interceptor Core" (In Localisation Replace Folder) ###
+### CORVETTE_MID_PD3: "Pinpoint Core" (In Localisation Replace Folder) ###
+#-------------------------------------------------------------------#
+### CRISIS_CORVETTE_MID_S3: "Interceptor Core" (In Localisation Replace Folder) ###
+CRISIS_CORVETTE_MID_S2PD1: "Дозор"
+CRISIS_CORVETTE_MID_PD3: "Точное наведение"
+#-------------------------------------------------------------------#
+FRIGATE_BOW_M1S2: "Залповый нос"
+FRIGATE_BOW_G1S2: "Торпедный нос"
+FRIGATE_BOW_G1S1P1: "Фузиладный нос"
+FRIGATE_BOW_M1S1P1: "Канонерский нос"
+FRIGATE_BOW_S3: "Нос перехватчика"
+FRIGATE_BOW_S2P1: "Дозорный нос"
+FRIGATE_BOW_P4: "Эскортный улучшенный нос"
+
+FRIGATE_STERN_S2: "Корма перехватчика"
+FRIGATE_STERN_P2: "Корма точного наведения"
+FRIGATE_STERN_S1P1: "Дозорная корма"
+FRIGATE_STERN_G1: "Торпедная корма"
+FRIGATE_STERN_M1: "Бортовая корма"
+FRIGATE_STERN_P4: "Эскортная улучшенная корма"
+#-------------------------------------------------------------------#
+### DESTROYER_BOW_L1: "Artillery Bow" (In Localisation Replace Folder) ###
+DESTROYER_BOW_M2S2: "Залповый нос"
+DESTROYER_BOW_G1S3: "Торпедный нос"
+DESTROYER_BOW_S5: "Нос перехватчика"
+DESTROYER_BOW_S3P2: "Дозорный нос"
+DESTROYER_BOW_LC: "Нос лёгкого авианосца"
+
+DESTROYER_STERN_S5: "Корма перехватчика"
+DESTROYER_STERN_S3P2: "Дозорная корма"
+DESTROYER_STERN_M2: "Бортовая корма"
+DESTROYER_STERN_LC: "Корма лёгкого авианосца"
+#-------------------------------------------------------------------#
+CRISIS_DESTROYER_M2S2: "Залп"
+#-------------------------------------------------------------------#
+CRISIS_CRUISER_SECTION_B: "Торпеды"
+#-------------------------------------------------------------------#
+OFFSPRING_DESTROYER_BOW_M1S2: "Канонерский нос"
+OFFSPRING_DESTROYER_BOW_S3: "Дозорный нос"
+OFFSPRING_DESTROYER_BOW_S4: "Нос перехватчика"
+OFFSPRING_DESTROYER_BOW_G2: "Ракетный нос"
+OFFSPRING_DESTROYER_BOW_M2P4: "Нос эсминца ПКО"
+
+OFFSPRING_DESTROYER_STERN_S2: "Корма перехватчика"
+OFFSPRING_DESTROYER_STERN_M1: "Канонерская корма"
+OFFSPRING_DESTROYER_STERN_G1: "Ракетная корма"
+OFFSPRING_DESTROYER_STERN_P4: "Корма эсминца ПКО"
+#-------------------------------------------------------------------#
+CRUISER_BOW_L3: "Артиллерийский нос"
+CRUISER_BOW_M4S4: "Залповый нос"
+CRUISER_BOW_M2S3P3: "Канонерский нос"
+CRUISER_BOW_M6: "Бортовой нос"
+CRUISER_BOW_STRIKE_A: "Нос ударного крейсера A"
+CRUISER_BOW_STRIKE_B: "Нос ударного крейсера B"
+CRUISER_BOW_STRIKE_C: "Нос ударного крейсера C"
+
+CRUISER_MID_M2L2: "Артиллерийское ядро"
+CRUISER_MID_M5P2: "Канонерское ядро"
+CRUISER_MID_M5S3: "Залповое ядро"
+CRUISER_MID_G4P3: "Торпедное ядро"
+CRUISER_MID_STRIKE_A: "Ядро ударного крейсера A"
+CRUISER_MID_STRIKE_B: "Ядро ударного крейсера B"
+CRUISER_MID_STRIKE_C: "Ядро ударного крейсера C"
+
+CRUISER_STERN_M2: "Бортовая корма"
+CRUISER_STERN_G2: "Ракетная корма"
+CRUISER_STERN_S4: "Корма перехватчика"
+CRUISER_STERN_P4: "Корма точного наведения"
+CRUISER_STERN_STRIKE_A: "Корма ударного крейсера A"
+CRUISER_STERN_STRIKE_B: "Корма ударного крейсера B"
+CRUISER_STERN_STRIKE_C: "Корма ударного крейсера C"
+#-------------------------------------------------------------------#
+STRIKECRUISER_BOW_G7P3: "Торпедный нос"
+STRIKECRUISER_BOW_M10P4: "Бортовой нос"
+STRIKECRUISER_BOW_M4S14P2: "Канонерский нос"
+
+STRIKECRUISER_MID_G6P2: "Торпедное ядро"
+STRIKECRUISER_MID_M9P2: "Бортовое ядро"
+STRIKECRUISER_MID_M4S10P2: "Канонерское ядро"
+
+STRIKECRUISER_STERN_G4: "Торпедная корма"
+STRIKECRUISER_STERN_M6: "Бортовая корма"
+STRIKECRUISER_STERN_P12: "Корма перехватчика"
+#-------------------------------------------------------------------#
+OFFSPRING_CRUISER_BOW_L2: "Артиллерийский нос"
+OFFSPRING_CRUISER_BOW_S3M3: "Залповый нос"
+OFFSPRING_CRUISER_BOW_G3: "Ракетный нос"
+### CRUISER_BOW_M1S2: "Volley Bow" (In Localisation Replace Folder) ###
+
+OFFSPRING_CRUISER_MID_M2L2: "Артиллерийское ядро"
+OFFSPRING_CRUISER_MID_P2M6: "Бортовое ядро"
+OFFSPRING_CRUISER_MID_S4M4: "Залповое ядро"
+OFFSPRING_CRUISER_MID_S4P2H1: "Ангарное ядро"
+
+OFFSPRING_CRUISER_STERN_M2: "Бортовая корма"
+OFFSPRING_CRUISER_STERN_G2: "Ракетная корма"
+OFFSPRING_CRUISER_STERN_S4: "Корма перехватчика"
+OFFSPRING_CRUISER_STERN_P4: "Корма точного наведения"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_1_BOW_L1: "Артиллерийский нос (уровень 1)"
+EXPLORATIONSHIP_1_BOW_M1S2: "Залповый нос (уровень 1)"
+EXPLORATIONSHIP_1_BOW_M2: "Бортовой нос (уровень 1)"
+
+EXPLORATIONSHIP_1_MID1_M3: "Залповое ядро (уровень 1)"
+EXPLORATIONSHIP_1_MID1_S2: "Ядро перехватчика (уровень 1)"
+EXPLORATIONSHIP_1_MID1_PD2: "Ядро точного наведения (уровень 1)"
+
+EXPLORATIONSHIP_1_MID2_M3: "Залповое ядро (уровень 1)"
+EXPLORATIONSHIP_1_MID2_S2: "Ядро перехватчика (уровень 1)"
+EXPLORATIONSHIP_1_MID2_PD2: "Ядро точного наведения (уровень 1)"
+
+EXPLORATIONSHIP_1_STERN_M1: "Бортовая корма (уровень 1)"
+EXPLORATIONSHIP_1_STERN_S2: "Корма скорострельного огня (уровень 1)"
+EXPLORATIONSHIP_1_STERN_PD2: "Корма точного наведения (уровень 1)"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_2_BOW_L1: "Артиллерийский нос (уровень 2)"
+EXPLORATIONSHIP_2_BOW_G1S2: "Фузиладный нос (уровень 2)"
+EXPLORATIONSHIP_2_BOW_M5: "Бортовой нос (уровень 2)"
+
+EXPLORATIONSHIP_2_MID1_L1G1: "Ядро заградительного огня (уровень 2)"
+EXPLORATIONSHIP_2_MID1_L1M1: "Артиллерийское ядро (уровень 2)"
+EXPLORATIONSHIP_2_MID1_M2S2: "Залповое ядро (уровень 2)"
+EXPLORATIONSHIP_2_MID1_G3: "Ракетное ядро (уровень 2)"
+EXPLORATIONSHIP_2_MID1_M3: "Бортовое ядро (уровень 2)"
+
+EXPLORATIONSHIP_2_MID2_L1G1: "Ядро заградительного огня (уровень 2)"
+EXPLORATIONSHIP_2_MID2_L1M1: "Артиллерийское ядро (уровень 2)"
+EXPLORATIONSHIP_2_MID2_M2S2: "Залповое ядро (уровень 2)"
+EXPLORATIONSHIP_2_MID2_G3: "Ракетное ядро (уровень 2)"
+EXPLORATIONSHIP_2_MID2_M3: "Бортовое ядро (уровень 2)"
+
+EXPLORATIONSHIP_2_STERN_M2: "Бортовая корма (уровень 2)"
+EXPLORATIONSHIP_2_STERN_S4: "Корма скорострельного огня (уровень 2)"
+EXPLORATIONSHIP_2_STERN_PD4: "Корма ПКО (уровень 2)"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_3_BOW_L3: "Артиллерийский нос (уровень 3)"
+EXPLORATIONSHIP_3_BOW_G3S3: "Фузиладный нос (уровень 3)"
+EXPLORATIONSHIP_3_BOW_M7: "Бортовой нос (уровень 3)"
+
+EXPLORATIONSHIP_3_MID1_L1G3: "Ядро заградительного огня (уровень 3)"
+EXPLORATIONSHIP_3_MID1_L3M1: "Артиллерийское ядро (уровень 3)"
+EXPLORATIONSHIP_3_MID1_M5S5: "Залповое ядро (уровень 3)"
+EXPLORATIONSHIP_3_MID1_G5H1: "Ракетное ядро (уровень 3)"
+EXPLORATIONSHIP_3_MID1_M7: "Бортовое ядро (уровень 3)"
+
+EXPLORATIONSHIP_3_MID2_L1G3: "Ядро заградительного огня (уровень 3)"
+EXPLORATIONSHIP_3_MID2_L3M1: "Артиллерийское ядро (уровень 3)"
+EXPLORATIONSHIP_3_MID2_M5S5: "Залповое ядро (уровень 3)"
+EXPLORATIONSHIP_3_MID2_G5H1: "Ракетное ядро (уровень 3)"
+EXPLORATIONSHIP_3_MID2_M7: "Бортовое ядро (уровень 3)"
+
+EXPLORATIONSHIP_3_STERN_M4: "Бортовая корма (уровень 3)"
+EXPLORATIONSHIP_3_STERN_S8: "Корма скорострельного огня (уровень 3)"
+EXPLORATIONSHIP_3_STERN_PD8: "Корма ПКО (уровень 3)"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_4_BOW_L6: "Артиллерийский нос (уровень 4)"
+EXPLORATIONSHIP_4_BOW_G7S7: "Фузиладный нос (уровень 4)"
+EXPLORATIONSHIP_4_BOW_M14: "Бортовой нос (уровень 4)"
+
+EXPLORATIONSHIP_4_MID1_L3G6: "Ядро заградительного огня (уровень 4)"
+EXPLORATIONSHIP_4_MID1_L5M3: "Артиллерийское ядро (уровень 4)"
+EXPLORATIONSHIP_4_MID1_M10S10: "Залповое ядро (уровень 4)"
+EXPLORATIONSHIP_4_MID1_G7H2: "Ракетное ядро (уровень 4)"
+EXPLORATIONSHIP_4_MID1_M15: "Бортовое ядро (уровень 4)"
+
+EXPLORATIONSHIP_4_MID2_L3G6: "Ядро заградительного огня (уровень 4)"
+EXPLORATIONSHIP_4_MID2_L5M3: "Артиллерийское ядро (уровень 4)"
+EXPLORATIONSHIP_4_MID2_M10S10: "Залповое ядро (уровень 4)"
+EXPLORATIONSHIP_4_MID2_G7H2: "Ракетное ядро (уровень 4)"
+EXPLORATIONSHIP_4_MID2_M15: "Бортовое ядро (уровень 4)"
+
+EXPLORATIONSHIP_4_STERN_M6: "Бортовая корма (уровень 4)"
+EXPLORATIONSHIP_4_STERN_S12: "Корма скорострельного огня (уровень 4)"
+EXPLORATIONSHIP_4_STERN_PD12: "Корма ПКО (уровень 4)"
+#-------------------------------------------------------------------#
+BATTLECRUISER_BOW_L4: "Артиллерийский нос"
+BATTLECRUISER_BOW_S6M6: "Залповый нос"
+BATTLECRUISER_BOW_P6M6: "Канонерский нос"
+BATTLECRUISER_BOW_G8: "Торпедный нос"
+
+BATTLECRUISER_MID1_S6M6: "Залповое ядро"
+BATTLECRUISER_MID1_M2L3: "Ядро массированного огня"
+BATTLECRUISER_MID1_G3L2: "Бомбардировочное ядро"
+BATTLECRUISER_MID1_M9: "Бортовое ядро"
+BATTLECRUISER_MID1_G6: "Торпедное ядро"
+
+BATTLECRUISER_MID2_S6M6: "Залповое ядро"
+BATTLECRUISER_MID2_M2L3: "Ядро массированного огня"
+BATTLECRUISER_MID2_G3L2: "Бомбардировочное ядро"
+BATTLECRUISER_MID2_M9: "Бортовое ядро"
+BATTLECRUISER_MID2_G6: "Торпедное ядро"
+
+BATTLECRUISER_STERN_M8: "Бортовая корма"
+BATTLECRUISER_STERN_G6: "Ракетная корма"
+BATTLECRUISER_STERN_S8P8: "Корма перехватчика"
+#-------------------------------------------------------------------#
+BATTLESHIP_BOW_XL: "Нос аннигилятора"
+BATTLESHIP_BOW_S6M4L4: "Нос массированного огня"
+BATTLESHIP_BOW_L7: "Артиллерийский нос"
+BATTLESHIP_BOW_G4M10P4: "Фузиладный нос"
+BATTLESHIP_BOW_SF: "Нос скорострельного огня"
+
+BATTLESHIP_MID_M5L5: "Ядро массированного огня"
+BATTLESHIP_MID_L7: "Артиллерийское ядро"
+BATTLESHIP_MID_M16: "Бортовое ядро"
+BATTLESHIP_MID_SF: "Ядро скорострельного огня"
+
+BATTLESHIP_STERN_L3: "Артиллерийская корма"
+BATTLESHIP_STERN_M8: "Бортовая корма"
+BATTLESHIP_STERN_SF: "Корма скорострельного огня"
+#-------------------------------------------------------------------#
+OFFSPRING_BATTLESHIP_BOW_S6M4L4: "Карронадный нос"
+OFFSPRING_BATTLESHIP_BOW_L8: "Артиллерийский нос"
+OFFSPRING_BATTLESHIP_BOW_S5P5M5G5: "Универсальный нос"
+OFFSPRING_BATTLESHIP_BOW_S4P4G10: "Ракетный нос"
+OFFSPRING_BATTLESHIP_BOW_SF: "Нос скорострельного огня"
+OFFSPRING_BATTLESHIP_BOW_XL1: "Нос опустошителя"
+
+OFFSPRING_BATTLESHIP_MID_M6L6: "Бортовое ядро"
+OFFSPRING_BATTLESHIP_MID_G6L6: "Бомбардировочное ядро"
+OFFSPRING_BATTLESHIP_MID_L9: "Артиллерийское ядро"
+OFFSPRING_BATTLESHIP_MID_M8G8: "Ядро заградительного огня"
+OFFSPRING_BATTLESHIP_MID_S8P8H4: "Ангарное ядро"
+OFFSPRING_BATTLESHIP_MID_SF: "Ядро скорострельного огня"
+
+OFFSPRING_BATTLESHIP_STERN_L3: "Артиллерийская корма"
+OFFSPRING_BATTLESHIP_STERN_M8: "Бортовая корма"
+OFFSPRING_BATTLESHIP_STERN_G5: "Ракетная корма"
+OFFSPRING_BATTLESHIP_STERN_SF: "Корма скорострельного огня"
+#-------------------------------------------------------------------#
+CARRIER_BOW_L1M3P4: "Карронадный нос"
+
+CARRIER_MID1_P4H4: "Авианосное ядро"
+CARRIER_MID1_HEAVY: "Ядро тяжёлого авианосца"
+CARRIER_MID1_SUPER: "Ядро суперавианосца"
+
+CARRIER_MID2_P4H4: "Авианосное ядро"
+CARRIER_MID2_HEAVY: "Ядро тяжёлого авианосца"
+CARRIER_MID2_SUPER: "Ядро суперавианосца"
+
+CARRIER_STERN_M3: "Бортовая корма"
+CARRIER_STERN_P5: "Корма точного наведения"
+#-------------------------------------------------------------------#
+DREADNOUGHT_BOW_S4P4M4L4: "Универсальный нос"
+DREADNOUGHT_BOW_L10: "Артиллерийский нос"
+DREADNOUGHT_BOW_S2P2G13: "Ракетный нос"
+DREADNOUGHT_BOW_XL4: "Нос опустошителя"
+
+DREADNOUGHT_MID1_P3M7L6: "Карронадное ядро"
+DREADNOUGHT_MID1_P3G5L6: "Бомбардировочное ядро"
+DREADNOUGHT_MID1_P3L9: "Артиллерийское ядро"
+DREADNOUGHT_MID1_P3M9G9: "Ядро массированного огня"
+
+DREADNOUGHT_MID2_P3M7L6: "Карронадное ядро"
+DREADNOUGHT_MID2_P3G5L6: "Бомбардировочное ядро"
+DREADNOUGHT_MID2_P3L9: "Артиллерийское ядро"
+DREADNOUGHT_MID2_P3M9G9: "Ядро массированного огня"
+
+DREADNOUGHT_MID3_P3M7L6: "Карронадное ядро"
+DREADNOUGHT_MID3_P3G5L6: "Бомбардировочное ядро"
+DREADNOUGHT_MID3_P3L9: "Артиллерийское ядро"
+DREADNOUGHT_MID3_P3M9G9: "Ядро массированного огня"
+
+DREADNOUGHT_STERN_L5: "Артиллерийская корма"
+DREADNOUGHT_STERN_M14: "Бортовая корма"
+DREADNOUGHT_STERN_G9: "Ракетная корма"
+#-------------------------------------------------------------------#
+TITAN_BOW_T4: "Нос новой звезды"
+TITAN_BOW_X8: "Нос аннигилятора"
+TITAN_BOW_T3X3: "Нос опустошителя"
+
+TITAN_MID_L7: "Артиллерийское ядро"
+TITAN_MID_M16: "Бортовое ядро"
+TITAN_MID_G12: "Торпедное ядро"
+
+TITAN_STERN_P8L6: "Артиллерийская корма"
+TITAN_STERN_P8M12: "Бортовая корма"
+#-------------------------------------------------------------------#
+FLAGSHIP_BOW_H6T6: "Нос сокрушителя осад"
+FLAGSHIP_BOW_H6X8T2: "Нос василиска"
+FLAGSHIP_BOW_H6X12: "Нос вестника бури"
+FLAGSHIP_BOW_P4G4L6H6: "Нос шквального огня"
+FLAGSHIP_BOW_P4L10H6: "Артиллерийский нос"
+FLAGSHIP_BOW_P4M12H6: "Бортовой нос"
+
+FLAGSHIP_MID1_L20: "Артиллерийское ядро"
+FLAGSHIP_MID1_M10L10: "Бомбардировочное ядро"
+FLAGSHIP_MID1_S8P4L8: "Карронадное ядро"
+FLAGSHIP_MID1_G10L10: "Ядро заградительного огня"
+FLAGSHIP_MID1_G20: "Ракетное ядро"
+FLAGSHIP_MID1_M20: "Бортовое ядро"
+FLAGSHIP_MID1_M10G10: "Ядро массированного огня"
+FLAGSHIP_MID1_P4H16: "Авианосное ядро"
+
+FLAGSHIP_MID2_L20: "Артиллерийское ядро"
+FLAGSHIP_MID2_M10L10: "Бомбардировочное ядро"
+FLAGSHIP_MID2_S8P4L8: "Карронадное ядро"
+FLAGSHIP_MID2_G10L10: "Ядро заградительного огня"
+FLAGSHIP_MID2_G20: "Ракетное ядро"
+FLAGSHIP_MID2_M20: "Бортовое ядро"
+FLAGSHIP_MID2_M10G10: "Ядро массированного огня"
+FLAGSHIP_MID2_P4H16: "Авианосное ядро"
+
+FLAGSHIP_MID3_L20: "Артиллерийское ядро"
+FLAGSHIP_MID3_M10L10: "Бомбардировочное ядро"
+FLAGSHIP_MID3_S8P4L8: "Карронадное ядро"
+FLAGSHIP_MID3_G10L10: "Ядро заградительного огня"
+FLAGSHIP_MID3_G20: "Ракетное ядро"
+FLAGSHIP_MID3_M20: "Бортовое ядро"
+FLAGSHIP_MID3_M10G10: "Ядро массированного огня"
+FLAGSHIP_MID3_P4H16: "Авианосное ядро"
+
+FLAGSHIP_MID4_L20: "Артиллерийское ядро"
+FLAGSHIP_MID4_M10L10: "Бомбардировочное ядро"
+FLAGSHIP_MID4_S8P4L8: "Карронадное ядро"
+FLAGSHIP_MID4_G10L10: "Ядро заградительного огня"
+FLAGSHIP_MID4_G20: "Ракетное ядро"
+FLAGSHIP_MID4_M20: "Бортовое ядро"
+FLAGSHIP_MID4_M10G10: "Ядро массированного огня"
+FLAGSHIP_MID4_P4H16: "Авианосное ядро"
+
+FLAGSHIP_STERN_L20: "Артиллерийская корма"
+FLAGSHIP_STERN_M20: "Бортовая корма"
+FLAGSHIP_STERN_G20: "Ракетная корма"
+FLAGSHIP_STERN_P10M10: "Потоковая корма"
+FLAGSHIP_STERN_P10H10: "Корма ПКО"
+#-------------------------------------------------------------------#
+STRONGHOLD_STARBASE_SECTION_T: "Секция Великой цитадели"
+STRONGHOLD_STARBASE_SECTION_XL: "Секция Великой цитадели"
+#-------------------------------------------------------------------#
+HEADQUARTERS_STARBASE_SECTION_T: "Секция бастиона"
+HEADQUARTERS_STARBASE_SECTION_XL: "Секция бастиона"
+#-------------------------------------------------------------------#
+PDSMALL_MILITARY_STATION_SECTION: "Секция лёгкой станции/ПКО"
+MEDTORP_MILITARY_STATION_SECTION: "Секция средней станции/торпед"
+
+LIGHT_MILITARY_STATION_SECTION_2: "Секция лёгкой станции"
+PD_MILITARY_STATION_SECTION_2: "Секция станции ПКО"
+PDSMALL_MILITARY_STATION_SECTION_2: "Секция лёгкой станции/ПКО"
+MEDIUM_MILITARY_STATION_SECTION_2: "Секция средней станции"
+MEDTORP_MILITARY_STATION_SECTION_2: "Секция средней станции/торпед"
+MISSILE_MILITARY_STATION_SECTION_2: "Секция ракетной станции"
+HEAVY_MILITARY_STATION_SECTION_2: "Секция тяжёлой станции"
+HANGAR_MILITARY_STATION_SECTION_2: "Секция ангарной станции"
+
+LIGHT_MILITARY_STATION_SECTION_3: "Секция лёгкой станции"
+PD_MILITARY_STATION_SECTION_3: "Секция станции ПКО"
+PDSMALL_MILITARY_STATION_SECTION_3: "Секция лёгкой станции/ПКО"
+MEDIUM_MILITARY_STATION_SECTION_3: "Секция средней станции"
+MEDTORP_MILITARY_STATION_SECTION_3: "Секция средней станции/торпед"
+MISSILE_MILITARY_STATION_SECTION_3: "Секция ракетной станции"
+HEAVY_MILITARY_STATION_SECTION_3: "Секция тяжёлой станции"
+HANGAR_MILITARY_STATION_SECTION_3: "Секция ангарной станции"
+
+#-------------------------------------------------------------------#
+XL_CANNON_CORE: "Ядро пушки-аннигилятора"
+T_CANNON_CORE: "Ядро пушки-уничтожителя"
+T_CANNON_CORE: "Ядро уничтожителя"
+#-------------------------------------------------------------------#
+MISSILE_JUGGERNAUT_SECTION: "Ракетный джаггернаут"
+ARTILLERY_JUGGERNAUT_SECTION: "Артиллерийский джаггернаут"
+STRIKECRAFT_JUGGERNAUT_SECTION: "Штурмовой джаггернаут"
+ARTILLERY_JUGGERNAUT_SECTION: "Бортовой джаггернаут"
+MEDIUM_JUGGERNAUT_SECTION: "Заградительный джаггернаут"
+#-------------------------------------------------------------------#
+CORE1_HEADQUARTERS_SECTION: "Ядро штаба"
+CORE2_HEADQUARTERS_SECTION: "Ядро штаба"
+CORE3_HEADQUARTERS_SECTION: "Ядро штаба"
+CORE4_HEADQUARTERS_SECTION: "Ядро штаба"

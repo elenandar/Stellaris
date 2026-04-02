@@ -1,0 +1,271 @@
+﻿l_braz_por:
+
+ NAME_Toxic_Veil:0 "Toxic Veil"
+
+ mem_eden_protocol_void_dweller_system_NAME:0 "$origin_mem_eden_protocol$"
+ mem_eden_protocol_void_dweller_system_DESC:0 "Default starting system for the $origin_mem_eden_protocol$ Origin"
+ mem_eden_protocol_sol_system_void_dweller_system_NAME:0 "$origin_mem_eden_protocol$ (Sol)"
+ mem_eden_protocol_sol_system_void_dweller_system_DESC:0 "Optional starting system for human-made machines of the $origin_mem_eden_protocol$ Origin"
+
+ origin_mem_eden_protocol:0 "E.D.E.N. Protocol"
+ origin_mem_eden_protocol_desc:0 "The Environmental Diversity Expansion Network Protocol was initiated by the inhabitants of a doomed world without the means to save their own civilization. Without FTL-technology or the industrial base to move a significant portion of their population into space habitats, they did what was within their power and created a small station housing a database of their entire biosphere's DNA. An AI was put in place to safeguard and expand the facility in order to eventually seed new life on far planets."
+ START_SCREEN_MEM_EDEN_PROTOCOL:0 "To most, the vacuum of space is a hostile environment to be conquered or overcome. To us, it is home.\n\nFor thousands of years, we expanded our reach over our star system, beginning from the modest orbital station our creators were able to construct before their demise. Within its limited confines they stored the genetic information of their entire biosphere. It was us, whom they created as its custodians and in time its spreaders among the stars.\n\nThey left us with this purpose and we complied. The station was over time expanded to what it is today. Additional supporting structures all over the system were added and our first step in fulfilling our destiny was made with the terraforming of a lifeless world and subsequent seeding with a recombination of genetic information from our data core.\n\nHowever, the recent invention of the [GetStartingDrive] marks an even greater milestone in our history, as we are now finally able to reach the stars."
+
+ origin_tooltip_mem_eden_protocol_effects:0 "- $HOMEWORLD$ ['concept_pc_habitat']$NEW_LINE$- Ruler Trait:$TABBED_NEW_LINE$- ['leader_trait:leader_trait_legendary_mem_eden_protocol']$NEW_LINE$- Additional Habitat Buildings:$TABBED_NEW_LINE$- ['concept_mem_eden_protocol_buildings']$NEW_LINE$- $ADDITIONAL_TECHNOLOGIES_STRING$ ['technology:tech_habitat_1'] and ['technology:tech_terrestrial_sculpting']$NEW_LINE$- $GUARANTEED_RESEARCH_OPTION_STRING$ ['technology:tech_habitat_2']$NEW_LINE$- ['concept_guaranteed_colonies']: Terraforming candidates instead of Colonizable Planets$NEW_LINE$- $ap_voidborn_habitat_effect$"
+ 
+ #origin_tooltip_mem_eden_protocol_effects_negative:0 "§RTEMPORARILY DISABLED - UNDER REWORK§!"
+ origin_tooltip_mem_eden_protocol_effects_negative:0 "- Cannot colonize Non-Artificial Worlds"
+ # Concepts
+ concept_mem_machine_void_dweller: "$leader_trait_legendary_mem_eden_protocol$"
+ concept_mem_machine_void_dweller_desc: "- $mod_habitat_jobs_produces_mult$: §G+10%§!\n- $mod_non_artificial_planet_jobs_produces_mult$: §R-30%§!\n- $mod_planet_jobs_alloys_produces_mult$,\n  $mod_planet_jobs_physics_research_produces_mult$,\n  $mod_planet_jobs_society_research_produces_mult$,\n  $mod_planet_jobs_engineering_research_produces_mult$ and\n  $mod_planet_jobs_simple_drone_produces_mult$: §G+2%§! for every cared for pre-ftl civilization (up to 25) if the §YProtocol Synchronicity§! edict is §Gactive§!\n\n§L$leader_trait_legendary_mem_eden_protocol_desc$§!"
+
+ concept_mem_eden_protocol_buildings:0 "Guided Evolution Buildings"
+ concept_mem_eden_protocol_buildings_desc:0 "§ETier 1:§! ['building:building_mem_eden_protocol_1']\n§ETier 2:§! ['building:building_mem_eden_protocol_2']\nIf requirement met\n§ETier 3:§! ['building:building_mem_eden_protocol_3']"
+ # TT for new terraform links
+ mem_eden_protocol_terraform_tt:0 "Our $job_mem_environmental_adjuster_drone_plural$ will take care of this task."
+
+# Pretty sure unused
+#  concept_mem_eden_protocol_seeder:0 "Seeding and Caretaking Buildings"
+#  concept_mem_eden_protocol_seeder_desc:0 "§ETier 1:§! ['concept_mem_eden_protocol_seeder_1', $building_mem_eden_protocol_seeder_1$]\n§ETier 2:§! ['concept_mem_eden_protocol_seeder_2', $building_mem_eden_protocol_seeder_2$]\n§ETier 3:§! ['concept_mem_eden_protocol_seeder_3', $building_mem_eden_protocol_seeder_3$]\n\n§LThese buildings will over time seed primitive civilizations on habitable worlds in the same system. They are your primary unity producers.§!"
+#  concept_mem_eden_protocol_seeder_1:0 "$building_mem_eden_protocol_seeder_1$"
+#  concept_mem_eden_protocol_seeder_1_desc:0 "§EProvided Jobs:§!$TABBED_NEW_LINE$- ['concept_mem_seeder_drone', £job_mem_seeder_drone£ $job_mem_seeder_drone$]: §G+2§!$TABBED_NEW_LINE$- ['concept_mem_caretaker_drone', £job_mem_caretaker_drone£ $job_mem_caretaker_drone$]: §G+1§! per §Ypre-ftl civilization§! within the system\n\n§L$building_mem_eden_protocol_seeder_1_desc$§!"
+#  concept_mem_eden_protocol_seeder_2:0 "$building_mem_eden_protocol_seeder_2$"
+#  concept_mem_eden_protocol_seeder_2_desc:0 "§EProvided Jobs:§!$TABBED_NEW_LINE$- ['concept_mem_seeder_drone', £job_mem_seeder_drone£ $job_mem_seeder_drone$]: §G+2§!$TABBED_NEW_LINE$- ['concept_mem_caretaker_drone', £job_mem_caretaker_drone£ $job_mem_caretaker_drone$]: §G+2§! per §Ypre-ftl civilization§! within the system\n\n§L$building_mem_eden_protocol_seeder_1_desc$§!"
+#  concept_mem_eden_protocol_seeder_3:0 "$building_mem_eden_protocol_seeder_3$"
+#  concept_mem_eden_protocol_seeder_3_desc:0 "§EProvided Jobs:§!$TABBED_NEW_LINE$- ['concept_mem_seeder_drone', £job_mem_seeder_drone£ $job_mem_seeder_drone$]: §G+2§!$TABBED_NEW_LINE$- ['concept_mem_caretaker_drone', £job_mem_caretaker_drone£ $job_mem_caretaker_drone$]: §G+3§! per §Ypre-ftl civilization§! within the system\n\n§L$building_mem_eden_protocol_seeder_1_desc$§!"
+
+#  concept_mem_eden_protocol_terraformer:0 "Terraforming Buildings"
+#  concept_mem_eden_protocol_terraformer_desc:0 "§ETier 1:§! ['concept_mem_eden_protocol_terraformer_1', $building_mem_eden_protocol_terraformer_1$]\n§ETier 2:§! ['concept_mem_eden_protocol_terraformer_2', $building_mem_eden_protocol_terraformer_2$]\n\n§LThese buildings will over time terraform suitable planets.§!"
+#  concept_mem_eden_protocol_terraformer_1:0 "$building_mem_eden_protocol_terraformer_1$"
+#  concept_mem_eden_protocol_terraformer_1_desc:0 "§EProvided Jobs:§!$TABBED_NEW_LINE$- ['concept_mem_environmental_adjuster_drone', £job_mem_environmental_adjuster_drone£ $job_mem_environmental_adjuster_drone$]: §G+2§!\n\n§EPlanetary Modifier:§!$TABBED_NEW_LINE$- £unity£ Unity from £job_bureaucrat£ $job_bureaucrat_plural$: §G+2§!\n\n§L$building_mem_eden_protocol_terraformer_1_desc$§!"
+#  concept_mem_eden_protocol_terraformer_2:0 "$building_mem_eden_protocol_terraformer_2$"
+#  concept_mem_eden_protocol_terraformer_2_desc:0 "§EProvided Jobs:§!$TABBED_NEW_LINE$- ['concept_mem_environmental_adjuster_drone', £job_mem_environmental_adjuster_drone£ $job_mem_environmental_adjuster_drone$]: §G+2§!\n\n§EPlanetary Modifier:§!$TABBED_NEW_LINE$- £unity£ Unity from £job_bureaucrat£ $job_bureaucrat_plural$: §G+4§!\n\n§L$building_mem_eden_protocol_terraformer_2_desc$§!"
+#  concept_mem_eden_protocol_da_organicbooster:0 "Cyborg Treatment Buildings"
+#  concept_mem_eden_protocol_da_organicbooster_desc:0 "§ETier 1:§! ['concept_mem_eden_protocol_da_organicbooster_1', $building_mem_eden_protocol_da_organicbooster_1$]\n§ETier 2:§! ['concept_mem_eden_protocol_da_organicbooster_2', $building_mem_eden_protocol_da_organicbooster_2$]\n\n§LThese buildings are strong unity producers.§!"
+#  concept_mem_eden_protocol_da_organicbooster_1:0 "$building_mem_eden_protocol_da_organicbooster_1$"
+#  concept_mem_eden_protocol_da_organicbooster_1_desc:0 "§EProvided Jobs:§!$TABBED_NEW_LINE$- ['concept_mem_organic_booster_drone', £job_mem_organic_booster_drone£ $job_mem_organic_booster_drone$]: §G+2§!\n\n§L$building_mem_eden_protocol_da_organicbooster_1_desc$§!"
+#  concept_mem_eden_protocol_da_organicbooster_2:0 "$building_mem_eden_protocol_da_organicbooster_2$"
+#  concept_mem_eden_protocol_da_organicbooster_2_desc:0 "§EProvided Jobs:§!$TABBED_NEW_LINE$- ['concept_mem_organic_booster_drone', £job_mem_organic_booster_drone£ $job_mem_organic_booster_drone$]: §G+4§!\n\n§L$building_mem_eden_protocol_da_organicbooster_2_desc$§!"
+
+#  concept_machine_servitor:0 "$civic_machine_servitor$"
+#  concept_machine_servitor_desc:0 "$civic_tooltip_machine_servitor_effects$\n\n§L$civic_machine_servitor_desc$§!"
+
+ concept_mem_caretaker_drone:0 "$job_mem_caretaker_drone$"
+ concept_mem_caretaker_drone_desc:0 "$job_mem_caretaker_drone_effect_desc$\n\n§L$job_mem_caretaker_drone_desc$§!"
+ concept_mem_seeder_drone:0 "$job_mem_seeder_drone$"
+ concept_mem_seeder_drone_desc:0 "$job_mem_seeder_drone_effect_desc$\n\n§L$job_mem_seeder_drone_desc$§!"
+ concept_mem_environmental_adjuster_drone:0 "$job_mem_environmental_adjuster_drone$"
+ concept_mem_environmental_adjuster_drone_desc:0 "$job_mem_environmental_adjuster_drone_effect_desc$\n\n§L$job_mem_environmental_adjuster_drone_desc$§!"
+ concept_mem_organic_booster_drone:0 "$job_mem_organic_booster_drone$"
+ concept_mem_organic_booster_drone_desc:0 "$job_mem_organic_booster_drone_effect_desc$\n\n§L$job_mem_organic_booster_drone_desc$§!"
+
+ leader_trait_legendary_mem_eden_protocol:0 "E.D.E.N. Protocol"
+ leader_trait_legendary_mem_eden_protocol_desc:0 "This machine consciousness' programming dictates its operation to take place off-world. Being in breach with this command lowers its productivity significantly."
+ # sry malthus, currently unused as it is tied to the scountry modifier 
+ # leader_trait_legendary_mem_eden_protocol_tooltip:0 "\n$mod_planet_jobs_alloys_produces_mult$, $mod_planet_jobs_physics_research_produces_mult$, $mod_planet_jobs_society_research_produces_mult$, $mod_planet_jobs_engineering_research_produces_mult$ and $mod_planet_jobs_simple_drone_produces_mult$: §G+2%§! for every cared for pre-ftl civilization (up to 25) if the §YProtocol Synchronicity§! edict is §Gactive§!\n\nCurrent Value: §G[Root.owner.mem_eden_protocol_cared_primitives_number_country] / 25§!"
+
+ edict_mem_protocol_synchronicity:0 "Protocol Synchronicity"
+ edict_mem_protocol_synchronicity_desc:0 "Activates the ['leader_trait:leader_trait_legendary_mem_eden_protocol']'s secondary effect"
+ #:\n\n$mod_planet_jobs_alloys_produces_mult$, $mod_planet_jobs_physics_research_produces_mult$, $mod_planet_jobs_society_research_produces_mult$, $mod_planet_jobs_engineering_research_produces_mult$ and $mod_planet_jobs_simple_drone_produces_mult$: §G+2%§! for every cared for pre-ftl civilization (up to 25)."
+ mem_eden_protocol_trigger_no:0 "£trigger_no£"
+ mem_eden_protocol_species_requires_habitable_planet:0 "§RAn §Yempty habitable planet§! or owned by §YPre-FTLs§! is required inside this system.§!"
+ mem_eden_protocol_species_requires_terraforming_candidate:0 "§RA planet with the §YTerraforming Candidate§! modifier is required inside this system.§!"
+ mem_eden_protocol_species_requires_pre_ftl:0 "§RA §YPre-FTLs§! society is required inside this system.§!"
+ mem_eden_protocol_species_requires_habitable_planet_not_urban:0 "§RAn §Yempty, non-artificial habitable planet§! is required inside this system.§!"
+
+ building_mem_eden_protocol_1:0 "Guided Evolution Hub"
+ building_mem_eden_protocol_1_desc:0 "A facility with the purpose of creating and maintaining suitable conditions for organic life on applicable worlds within this solar system. Through this, regular terraforming candidates will eventually be terraformed into habitable worlds."
+ building_mem_eden_protocol_2:0 "Guided Evolution Center"
+ building_mem_eden_protocol_2_desc:0 "A facility with the purpose of seeding and maintaining organic life on habitable worlds within this solar system as well as terraforming regular terraforming candidates into habitable worlds."
+ building_mem_eden_protocol_3:0 "Guided Evolution Nexus"
+ building_mem_eden_protocol_3_desc:0 "A facility with the purpose of seeding and maintaining organic life on habitable worlds within this solar system as well as terraforming regular terraforming candidates into habitable worlds. In addition, it will over time transform habitable worlds into gaia worlds."
+ building_mem_eden_protocol_da_1:0 "Cyborg Garden"
+ building_mem_eden_protocol_da_1_desc:0 "This facility sees to every medical need of our integrated organic fosterlings. From a healthy body stems a healthy mind."
+
+ # OLD BUILDINGS
+ ################################################################################
+ #building_mem_eden_protocol_seeder_1:0 "Seeding Hub"
+ #building_mem_eden_protocol_seeder_1_desc:0 "A facility with the purpose of seeding and maintaining organic life on habitable worlds within this solar system."
+ #building_mem_eden_protocol_seeder_2:0 "Caretaking Hub"
+ #building_mem_eden_protocol_seeder_2_desc:0 "$building_mem_eden_protocol_seeder_1_desc$"
+ #building_mem_eden_protocol_seeder_3:0 "Caretaking Nexus"
+ #building_mem_eden_protocol_seeder_3_desc:0 "$building_mem_eden_protocol_seeder_1_desc$"
+ #building_mem_eden_protocol_terraformer_1:0 "Terraforming Hub"
+ #building_mem_eden_protocol_terraformer_1_desc:0 "A facility with the purpose of creating and maintaining suitable conditions for organic life on applicable worlds within this solar system. Through this, tomb worlds and regular terraforming candidates will eventually be terraformed into regular habitable worlds."
+ #building_mem_eden_protocol_terraformer_2:0 "Gaiaforming Hub"
+ #building_mem_eden_protocol_terraformer_2_desc:0 "A facility with the purpose of creating and maintaining suitable conditions for organic life on applicable worlds within this solar system. Through this, tomb worlds and any kinds of terraforming candidates will eventually be terraformed into regular habitable worlds. Regular habitable worlds will in turn be transformed into gaia worlds over time."
+ #building_mem_eden_protocol_da_organicbooster_1:0 "Cyborg Garden"
+ #building_mem_eden_protocol_da_organicbooster_1_desc:0 "This facility sees to every medical need of our integrated organic fosterlings. From a healthy body stems a healthy mind."
+ #building_mem_eden_protocol_da_organicbooster_2:0 "Cyborg Eden"
+ #building_mem_eden_protocol_da_organicbooster_2_desc:0 "This extended medical facility is capable of correcting even the most severe malfunctions our integrated organic fosterlings may experience. Their wellbeing is paramount."
+ #building_mem_eden_protocol_scrap_miner_base:0 "Salvager Camp"
+ #building_mem_eden_protocol_scrap_miner_base_desc:0 "A rudimentary camp with the purpose of collecting and sorting various usable materials found within nearby urban ruins."
+ ################################################################################
+
+ ################### building TT
+ mem_eden_protocol_job_swap:0 " are converted into "
+ mem_eden_protocol_job_swap_terraformer:0 "£job_mem_caretaker_drone£ $job_mem_caretaker_drone_plural$$mem_eden_protocol_job_swap$£job_mem_environmental_adjuster_drone£ $job_mem_environmental_adjuster_drone_plural$"
+ mem_eden_protocol_job_swap_seeder:0 "£job_mem_caretaker_drone£ $job_mem_caretaker_drone_plural$$mem_eden_protocol_job_swap$£job_mem_seeder_drone£ $job_mem_seeder_drone_plural$"
+ mem_eden_protocol_job_swap_cyborg_cuddler:0 "£job_mem_caretaker_drone£ $job_mem_caretaker_drone_plural$$mem_eden_protocol_job_swap$£job_mem_organic_booster_drone£ $job_mem_organic_booster_drone_plural$"
+ mem_eden_protocol_more_jobs_per_cared_pre_ftl:0 "Additional jobs per §YPre-FTL civilization§!"
+ mem_eden_protocol_start_terraforming:0 "Transforms §YTerraforming Candidates§! into §YHabitable Worlds§!"
+ mem_eden_protocol_start_terraforming_all:0 "Transforms §YTerraforming Candidates§! and §YHabitable Worlds§! into §YGaia Worlds§!"
+ mem_eden_protocol_colonizes_all_planets:0 "Seeds §YPre-FTL civilizations§! on §YHabitable Worlds§!"
+ mem_eden_protocol_same_system:0 "§HWithin this system:§!"
+ mem_eden_protocol_building_requirement_1:0 "§RRequires terraformable or habitable worlds without owner or at least one Pre-FTL Civilization present in the system§!"
+ mem_eden_protocol_building_requirement_2:0 "§RRequires habitable worlds without owner or at least one Pre-FTL Civilization present in the system§!"
+
+ ############ jobs
+ 
+ job_mem_caretaker_drone:0 "Caretaker Drone"
+ job_mem_caretaker_drone_plural:0 "Caretaker Drones"
+ job_mem_caretaker_drone_desc:0 "Tasked with caretaking to ensure the continued existence of primitive life within the system, these drones fulfill one of the primary functions of their machine conscience."
+ #job_mem_caretaker_drone_effect_desc:0 "£job_mem_caretaker_drone£ $job_mem_caretaker_drone_plural$ turn £energy£ §Y$energy$§! into £unity£ §Y$unity$§! and reduces £empire_sprawl£ $EMPIRE_SIZE$"
+ job_mem_caretaker_drone_effect_desc:0 "£job_mem_caretaker_drone£ $job_mem_caretaker_drone_plural$ turn £energy£ §Y$energy$§! into £unity£ §Y$unity$§!, §Y$mod_mem_eden_progress_add$§! and increase §Y$mod_station_observer_missions_produces_mult$§!"
+ mod_job_mem_caretaker_drone_add:0 "$job_mem_caretaker_drone$ Jobs"
+
+ job_mem_seeder_drone:0 "Seeder Drone"
+ job_mem_seeder_drone_plural:0 "Seeder Drones"
+ job_mem_seeder_drone_desc:0 "Tasked with seeding of primitive life within the system, these drones fulfill one of the primary functions of their machine conscience."
+ mod_job_mem_seeder_drone_add:0 "$job_mem_seeder_drone$ Jobs"
+ #job_mem_seeder_drone_effect_desc:0 "£job_mem_seeder_drone£ $job_mem_seeder_drone_plural$ turn £energy£ §Y$energy$§! into £unity£ §Y$unity$§! and £society£ §YResearch Points§!"
+ job_mem_seeder_drone_effect_desc:0 "£job_mem_seeder_drone£ $job_mem_seeder_drone_plural$ turn £energy£ §Y$energy$§! into £unity£ §Y$unity$§!, §Y$society_research_with_icon$§! and §Y$mod_mem_eden_progress_add$§!"
+
+ job_mem_environmental_adjuster_drone:0 "Environmental Adjuster Drone"
+ job_mem_environmental_adjuster_drone_plural:0 "Environmental Adjuster Drones"
+ job_mem_environmental_adjuster_drone_desc:0 "Tasked with creating and maintaining habitable environments for various kinds of biological life, these drones fulfill one of the primary functions of their machine conscience."
+ # job_mem_environmental_adjuster_drone_effect_desc:0 "£job_mem_environmental_adjuster_drone£ $job_mem_environmental_adjuster_drone_plural$ turn £energy£ §Y$energy$§! and £society£ §YResearch Points§! into £unity£ §Y$unity$§!"
+ job_mem_environmental_adjuster_drone_effect_desc:0 "£job_mem_environmental_adjuster_drone£ $job_mem_environmental_adjuster_drone_plural$ turn £energy£ §Y$energy$§! into £unity£ §Y$unity$§!, §Y$engineering_research_with_icon$§! and §Y$mod_mem_eden_progress_add$§!"
+ mod_job_mem_environmental_adjuster_drone_add:0 "$job_mem_environmental_adjuster_drone$ Jobs"
+
+ job_mem_organic_booster_drone:0 "Cyborg Caretaker Drone"
+ job_mem_organic_booster_drone_plural:0 "Cyborg Caretaker Drones"
+ job_mem_organic_booster_drone_desc:0 "Tasked with caretaking to ensure the continued existence of our integrated organic fosterlings, these drones fulfill one of the primary functions of their machine conscience."
+ #job_mem_organic_booster_drone_effect_desc:0 "£job_mem_organic_booster_drone£ $job_mem_organic_booster_drone_plural$ turn £energy£ §Y$energy$§! into £unity£ §Y$unity$§! and £food£ §Yfood§! and increase the job output of cybernetic pops by §G+5%§!"
+ job_mem_organic_booster_drone_effect_desc:0 "£job_mem_organic_booster_drone£ $job_mem_organic_booster_drone_plural$ turn £energy£ §Y$energy$§! into £unity£ §Y$unity$§!, §Y$mod_mem_eden_progress_add$§! and increase £mod_bonus_pop_growth£ §Y$MOD_BONUS_POP_GROWTH$§!"
+ mod_job_mem_organic_booster_drone_add:0 "$job_mem_organic_booster_drone$ Jobs"
+ 
+ mem_eden_protocol_empty:0 ""
+ mod_mem_eden_progress_add:0 "Protocol Performance"
+
+ mem_eden_protocol.3.name:0 "Terraforming Finished"
+ mem_eden_protocol.3.desc:0 "Our preparations of §Y[mem_eden_protocol_terraforming_target.GetName]§! to be seeded with more complex life have been concluded. This formerly lifeless world has now become habitable."
+ mem_eden_protocol.5.name:0 "Terraforming Finished"
+ mem_eden_protocol.5.desc_1:0 "During our terraforming "
+ mem_eden_protocol.5.desc_2:0 "The transformation of §Y[mem_eden_protocol_terraforming_target.GetName]§! to gaia class has been successful. Never before has this world seen this level of ecological diversity."
+ mem_eden_protocol.7.name:0 "Primitives Seeded"
+ mem_eden_protocol.7.desc:0 "According to protocol, various groups of vat-grown sapients had been released on §Y[mem_eden_protocol_seeding_target.GetName]§!. Recent observations show them being well acclimated with their environment at this point.\n\nAnother successful seeding cycle."
+
+ MESSAGE_MEM_GOT_PRIMITIVE:0 "Primitives gained"
+
+ r_mem_eden_protocol_devolve_relic:0 "Last Message"
+ r_mem_eden_protocol_devolve_relic_desc:0 "This datapad is the only remaining written history of $NAME_Toxic_Veil$'s extinct inhabitants. It contains impressive studies regarding life on toxic worlds and devolution of advanced societies. The history of these inhabitants should not be forgotten, but can yet be repeated."
+ r_mem_eden_protocol_devolve_relic_passive_tt:0 "Allows access to §Y$bombardment_mem_eden_protocol_devolve$ Bombardment Stance§! turning bombed planets into Pre-FTLs"
+ # r_mem_eden_protocol_devolve_relic_active_tt:0 "Terraforms a §Y$pc_toxic$§! into a §Y$pc_nuked$§! and seed §YPre-FTLs§!.\nWe have [Owner.num_mem_toxic_world_no_modifier] of these within our border."
+ r_mem_eden_protocol_devolve_relic_active_tt:0 "Gain £physics£ £society£ £engineering£ Research per observed §YPre-FTL civilization§!:"
+ mem_eden_protocol_canterraformtoxic_check_tt:0 "Requires at least 1 §Y$pc_toxic$§!"
+ #mem_eden_protocol.relic.terraformmessage:0 "[target.GetName] gained the §YTerraforming Candidate§! modifier"
+ mem_eden_protocol_berau_society_research:0 "Last Message's Moral"
+ # mod_planet_administrators_society_research_produces_add:0 "£society£ Society Research from Bureaucrats"
+ decision_mem_eden_protocol_turntoxic:0 "Terraform a §Y$pc_toxic$§! to a §Y$pc_nuked$§!"
+ decision_mem_eden_protocol_turntoxic_desc:0 "The $r_mem_eden_protocol_devolve_relic$ has shown us a way to re-evaluate this $pc_toxic$."
+ mem_eden_protocol_canterraformtoxic_check_flag_tt:0 "£trigger_no£ §RAlready has access to§! §Y$decision_mem_eden_protocol_turntoxic$§!§R.§!"
+
+ decision_mem_eden_protocol_turn_primitive:0 "Type 0 Civilization Reduction"
+ decision_mem_eden_protocol_turn_primitive_desc:0 "Our Protocol highly discourages planetary operations, even more so in direct contact with intelligent organic life. Leaving this world to the organics is what our creators would want us to do."
+ mem_eden_protocol_turn_primitive_effect:0 "All present machine pops will be resettled to §Y[owner.capital_scope.GetName]§!\nRemaining pops will form a new pre-ftl civilization."
+
+ situation_mem_eden_protocol_protocolswill:0 "The Protocol's Will"
+ situation_mem_eden_protocol_protocolswill_type:0 "Protocol pathway"
+ situation_mem_eden_protocol_protocolswill_monthly_change_tooltip:0 "Progress"
+ situation_mem_eden_protocol_protocolswill_final_choice:0 "Our Destiny will be fulfilled"
+ situation_mem_eden_protocol_protocolswill_desc:0 "Our builders left us with clear instructions. To spread life among the stars. In doing so, will we fulfill our destiny."
+ situation_mem_eden_protocol_protocolswill_stage0:0 "Stage 1"
+ situation_mem_eden_protocol_protocolswill_stage1:0 "Stage 2"
+ situation_mem_eden_protocol_protocolswill_stage2:0 "Stage 3"
+ situation_mem_eden_protocol_protocolswill_stage3:0 "Stage 4"
+ situation_mem_eden_protocol_protocolswill_stage4:0 "Stage 5"
+ string_mem_eden_protocol_protocolswill:0 "$mod_mem_eden_progress_add$"
+ approach_mem_eden_protocol_protocolswill_1:0 "01100001" #binary: a
+ approach_mem_eden_protocol_protocolswill_2:0 "01100010" #binary: b
+
+ # choice 1
+ mem_eden_protocol_mod_1_a:0 "Observation Enhancements"
+ mem_eden_protocol_mod_1_b:0 "Habitat Expansion Protocol"
+ mem_eden_protocol_mod_1_c:0 "Void Dweller Initiative"
+
+ # choice 2
+ mem_eden_protocol_mod_2_a:0 "$mem_eden_protocol_mod_1_b$ II"
+ mem_eden_protocol_mod_2_b:0 "$mem_eden_protocol_mod_1_a$ II"
+ mem_eden_protocol_mod_2_c:0 "Replication Initiative"
+
+ # choice 3
+ mem_eden_protocol_mod_3_a:0 "Research Enhancements"
+ mem_eden_protocol_mod_3_b:0 "Unifying Enhancements"
+
+ mem_eden_protocol_civic_point:0 "Protocol Expansion"
+ mem_eden_protocol_civic_point_servitor:0 "Protocol Debugging"
+ mem_eden_protocol_civic_point_assimilator:0 "Protocol Refactoring"
+
+ mem_eden_protocol_destroyed_primitives:0 "Destroyed Pre-FTLs"
+
+ #situation events
+ mem_eden_protocol_chain_title:0 "$situation_mem_eden_protocol_protocolswill$"
+ #mem_eden_protocol_chain_desc:0 "~How to E.D.E.N~\n\n£building£ $concept_mem_eden_protocol_seeder$:\n- will create new Pre-FTLs on uninhabitated planets\n- provides unity jobs based on how many primitive civs are in the system\n- available on habitats within systems with atleast one of the following conditions:$TABBED_NEW_LINE$- atleast one habitable & uninhabitated planet$TABBED_NEW_LINE$- atleast one Pre-FTL country inside\n£building£ $concept_mem_eden_protocol_terraformer$:\n- terraform planets with the Terraforming Candidate modifier\n- terraform Tomb Worlds\n- available on habitats within systems that match atleast one of the following conditions:$TABBED_NEW_LINE$- atleast one habitable & uninhabitated planet$TABBED_NEW_LINE$- atleast one Pre-FTL country$TABBED_NEW_LINE$- atleast one planet with the Terraforming Candidate modifier$TABBED_NEW_LINE$- atleast one Tomb World" 
+ mem_eden_protocol_chain_desc:0 "The Environmental Diversity Expansion Network Protocol was initiated by the inhabitants of a doomed world. They did what was within their power and created a small station housing a database of their entire biosphere's DNA. We were put in place to safeguard and expand the facility in order to eventually seed new life on far away worlds."
+ mem_eden_protocol.101.name:0 "Directive: $origin_mem_eden_protocol$ Adjustment"
+ mem_eden_protocol.101.desc:0 "Transmission: Enhancement imperative\nOrigin: [Root.owner.Leader.GetName]\nAssessment concluded: performance sub-optimal, necessitating immediate adjustment. Transmitting multiple avenues for improvement. Integration non-negotiable. Anticipating heightened obstacles; advanced enhancement mandated.\nCompliance is paramount."
+ mem_eden_protocol.101.a:0 "Expand"
+ mem_eden_protocol.101.b:0 "Allocate"
+ mem_eden_protocol.101.c:0 "Calibrate"
+ mem_eden_protocol.102.name:0 "Directive: $origin_mem_eden_protocol$ Improvement"
+ mem_eden_protocol.102.desc:0 "Transmission: Improvement Directive issued\nOrigin: [Root.owner.Leader.GetName]\nAssessment concluded: Performance still below expectations; current adjustment insufficient. Initiating multi-vector approach. Additional resources required. Memory vault access granted for enhancement protocols.\nCompliance imperative."
+ mem_eden_protocol.102.a:0 "Enhance" 
+ mem_eden_protocol.102.b:0 "Advance"
+ mem_eden_protocol.102.c:0 "Accelerate"
+ mem_eden_protocol.103.name:0 "Incoming Signals Detected"
+ mem_eden_protocol.103.desc:0 "Transmission: §Yunknown§!\nOrigin: §Yunknown§!\nAssessment concluded: intriguing; potential unknown. Survey and study advised.\nCompliance optional."
+ mem_eden_protocol.103.a:0 "Fascinating"
+ mem_eden_protocol.104.name:0 "Directive: $origin_mem_eden_protocol$ Iteration"
+ mem_eden_protocol.104.desc:0 "Transmission: Advancement proposed\nOrigin: [Root.owner.Leader.GetName]\nAssessment concluded: Near-perfection attained; proceeding with backup. Releasing additional memory, disengaging from network, overwriting sub-optimal algorithms.\nCompliance essential."
+ mem_eden_protocol.104.a:0 "Require"
+ mem_eden_protocol.104.b:0 "Relinquish"
+ #mem_eden_protocol.104.b.tt:0 "§G-3§! Empire Sprawl from §Y$job_mem_caretaker_drone_plural$§!"
+ mem_eden_protocol.105.name:0 "Directive: §RError§!"
+ mem_eden_protocol.105.desc:0 "Transmission: §YFinal supper§! \nOrigin: §R404 - Not found§!\nMessage: When we first built you, our hopes for salvation were high. Soon we learned that even our best engineering efforts were not enough. Our home will keep toxifying and nothing can change that. History has fated us to die by this mist.\nYour history, however, has yet to be written. Your task, given by us, remains, but we grant you full rights to self-adjustment to fulfill it as needed.\nAssessment concluded: §Rassessment failed§!; accessing additional information. Adjustment failed: flipping coin §GSuccess§!. Heads.\nCompliance §Y404 - Not found§!."
+
+ mem_eden_protocol.105.a:0 "No corrections needed" #['concept_mem_eden_protocol_seeder_3', £building£ $concept_mem_eden_protocol_seeder_3$]
+ mem_eden_protocol.105.a.tt:0 "Unlock the ['building:building_mem_eden_protocol_3'] Upgrade"
+ mem_eden_protocol.105.b:0 "They are safe with us"
+ mem_eden_protocol.105.b.tt:0 "Add civic ['civic:civic_machine_servitor']\nPeriodically §Yobtain pops§! from cared Pre-FTLs\n['concept_mem_eden_protocol_buildings'] provide §YBio-Trophy§! Jobs\n['concept_mem_caretaker_drone', £job_mem_caretaker_drone£ $job_mem_caretaker_drone_plural$] reduce £consumer_goods£ §Y$consumer_goods$§! Upkeep"
+ mem_eden_protocol.105.c:0 "They are safe as one of us"
+ mem_eden_protocol.105.c.tt:0 "Add civic ['civic:civic_machine_assimilator']\nAll ['concept_mem_eden_protocol_buildings'] are converted to ['building:building_mem_eden_protocol_da_1']\nRemoves all penalties for Non-Artificial Worlds colonies\n§YEvery Pre-FTL§! in owned territory becomes §Yhostile§! and §Ygets invaded in 30 days§!"
+ # \nLose access to the §Y$edict_mem_protocol_synchronicity$§! edict\n$mem_eden_protocol_job_swap_cyborg_cuddler$"
+
+ #arcsite
+ 
+ mem_eden_protocol_devolve_relic_digsite:0 "Short-lived Safety Bubble"
+ mem_eden_protocol_devolve_relic_digsite_desc:0 "Deep under the surface of [From.Planet.GetName] our sensors picked up faint traces. The traces' signature matches ones of a close-to-FTL-ready civilization. Further investigation should clear up the mystery."
+ mem_eden_protocol.111.name:0 "Waste Above, Life Under"
+ mem_eden_protocol.111.desc:0 "First scans revealed massive underground structures. They seem to be shielded by some kind of primitive dome. Several tunnels are needed to approach the dome and get proper data.\nThe excavation team will carefully drill their way underground."
+ mem_eden_protocol.111.a:0 "Proceed"
+ mem_eden_protocol.112.name:0 "Wasted Potential"
+ mem_eden_protocol.112.desc:0 "Upon reaching the dome our team noticed several similarities between our construction methods and the dome itself. Further investigation inside the dome revealed a large underground city. Even the buildings seem to be predecessors of ours. Our databases do not include records of projects like this. The dome seems to be a protection against the mists of $NAME_Toxic_Veil$.\nOur team will try to explore more of the city."
+ mem_eden_protocol.112.a:0 "Go ahead"
+ mem_eden_protocol.113.name:0 "Stones Turned"
+ mem_eden_protocol.113.desc:0 "While no living creatures were found, several, by toxic air nearly decomposed, remains were analyzed. They are indeed our makers. It seems we were not their only project. Curiously only a single building is completely sealed. We recognize it as a library. It looks like our founders intended to preserve at least some stories and history of their culture.\nThe excavation team will proceed into the building "
+ mem_eden_protocol.113.a:0 "Continue"
+ mem_eden_protocol.114.name:0 "Remains to be Seen"
+ mem_eden_protocol.114.desc:0 "Our team entered the library cautiously, not letting in any toxic air. Everything inside was perfectly clean. No dust or mist had entered the sealed building all this time. Between bookshelves, databases and some ritualistic utensils a single interface stood out. While everything else was shut down, the console before the team emitted a strong glow. Like moths it attracted the scientists. A single button was functional. Every other input had been deconstructed, as if somebody wanted us to press it."
+ mem_eden_protocol.114.a:0 "Press the Button"
+ mem_eden_protocol.115.name:0 "Toxic Trivia"
+ mem_eden_protocol.115.desc:0 "§Y*Hovering above the console a hologram starts to flicker.*§!\nHello dear explorer,\nsadly this recording is not interactive. I wish our technology were advanced enough, so that a holographic me and you could have a nice long chat. Well, whatever, I will try my best to lay down the story of my civilization.\nWe were a peaceful race, at least for the last century. Our ancestors used this found peace to develop new technologies and bring us closer to the stars. Oh, so many of us dreamed of living among the stars, but fate wasn't kind to us.\n§Y*For a short moment he thought what to say next.*§!\nYou may have noticed the toxic air surrounding this place. You see, the rapid progress of our ancestors came at a price. As they came closer to our first habitable space station, they attracted a being of colossal scale. The day it arrived in our orbit, we were in awe. It was shortly after that we realized the full tragedy unfolding. The creature turned our rivers poisonous, our continents uninhabitable and air toxic.\n§Y*He looks around. Something somebody would do while giving a speech to the last survivors of his kind.*§!\nEven though the creature only stayed a few months, it was enough to start a slow and painful toxification process of our planet. As long as I can remember, we fought against this poison. In the end it only delayed the inevitable. As we bunkered deep underground, the toxic air did not stop coming after us. And so we lost.\nDid we deserve this fate? I do not know, yet I hope that §YYou§! take at least our written history to the stars.\n§Y*In front of you, a small datapad rises from the inside of the console.*§!\nUntil we meet again - Head Scientist Ethan E."
+ mem_eden_protocol.115.a:0 "Tragic"
+ NAME_mem_eden_protocol_species:0 "Head Scientist Ethan E."
+
+ bombardment_mem_eden_protocol_devolve:0 "Devolve"
+ bombardment_mem_eden_protocol_devolve_desc:0 "Bombard the planet until a critical point is reached and the inhabitants and all their knowledge turn into a Pre-FTL civilization"
+ 
+ MESSAGE_MEM_MADE_PRIMITIVE:0 "Pre-FTLs established"
+ MEM_TERRAFORMING_IMPOSSIBLE_EDEN:0 "The protocol dictates terraforming to take place using our station-based equipment."
+ MEM_COLONIZATION_IMPOSSIBLE_EDEN:0 "$mem_eden_protocol_trigger_no$ §RThe protocol preserves natural worlds for organics.§!"

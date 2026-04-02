@@ -1,0 +1,272 @@
+﻿l_simp_chinese:
+
+# §Ywords§ = Yellow Words
+# §Rwords§ = Red Words
+# §Gwords§ = Green Words
+# §Bwords§ = Blue Words
+# §Swords§ = Orange Words
+# \n£blocker = Blocker Picture
+# \n£society = Society Picture
+# \n£engineering = Engineering Picture
+# \n£physics = Physics Picture
+# \n£energy = Energy Picture
+# \n£minerals = Minerals Picture
+
+#TEMPLATE
+#youranomalyhere_category: "Name of beginning event"
+#youranomalyhere_category_desc: "Desc of beginning event"
+#youranomalyhere.1.name: "Name of event"
+#youranomalyhere.1.desc: "Desc of event"
+#youranomalyhere.1.a: "first answer"
+#youranomalyhere.1.b: "second answer"
+
+ tech_rer_raid_1: "Quick Loot Methods"
+ tech_rer_raid_1_desc: "With the FTL drives' improvement, we have more convenient methods of taking resources away from enemies during the planetary invasions."
+ tech_rer_raid_1_tooltip: "Resources Gain From Planetary Invasion: §G+50%§!"
+ tech_rer_raid_2: "Systematic Looting"
+ tech_rer_raid_2_desc: "The new standard of looting procedure leaves no stones unturned."
+
+ 
+ resolution_rer_penalties: "$rer_raid_rules$ Violation"
+
+ rer_raid_rules: "Galactic Raid Rules"
+ resolution_category_rer: "Galactic Raid Rules"
+ 
+ resolution_rer_modifier_tooltip_1: "\n\nGalactic Community members that have their §Y$policy_policy_raidresource$§! Policy set to §Y$policy_raidresource_outlaw$§! receive the production bonus."
+ resolution_rer_modifier_tooltip_2: "\n\nGalactic Community members that have their §Y$policy_policy_raidresource$§! Policy set to §Y$policy_raidresource_heavy$§! receive the following §RPenalties§!."
+ resolution_rer_modifier_tooltip_3: "Galactic Community members that unable to have their §Y$policy_policy_raidresource$§! Policy set to §Y$policy_raidresource_outlaw$§! will receive the following §RPenalties§!."
+ resolution_rer_modifier_tooltip_4: "Extra resources gain via §Y$tech_rer_raid_1$§! and §Y$tech_rer_raid_2$§! technologies are prohibited."
+ #Galactic Community members that fail to set §Y$policy_raidresource_outlaw$§! of §Y$policy_policy_raidresource$§! Policy will be in §RBreach of Galactic Law§!!
+ #Resolutions are disabled as their effects cannot be active individually
+ resolution_rer_repeal_all: "Raiding Standard"
+ resolution_rer_repeal_all_desc: "Raiding issues should not discuss in the Senate, and it's up to the empires."
+ resolution_rer_repeal_all_effect_success: "Repeal all the effects of raiding resolutions - no bonuses and penalties."
+ resolution_rer_zero_raid_policy: "Zero Raid Policy"
+ resolution_rer_zero_raid_policy_desc: "Raiding is a crime against all sapient beings, causing unnecessary despair and suffer, in extreme cases - death. No more innocent people shall endure such bizarre after this resolution passes."
+ resolution_rer_zero_raid_policy_effect_success: "$resolution_rer_modifier_tooltip_4$$resolution_rer_modifier_tooltip_1$\n\n$resolution_rer_modifier_tooltip_3$"
+ resolution_rer_minimal_snatches: "Minimal Snatches"
+ resolution_rer_minimal_snatches_desc: "If raiding is just enough for attackers, and won't cause impactful consequences for defenders, it can be allowed to continue - with some restrictions."
+ resolution_rer_minimal_snatches_effect_success: "All planet-raid gains have 50% fewer resources and non §Y$policy_raidresource_heavy$§! planet attacker receives no diplomatic penalties.\n\n$resolution_rer_modifier_tooltip_4$$resolution_rer_modifier_tooltip_2$"
+ resolution_rer_barbarous_plunder: "Barbarous Plunder"
+ resolution_rer_barbarous_plunder_desc: "Raiding is where the business comes from, is part of our galaxy works; not even casualties can stop these golden trade ways. The profits are worth it."
+ resolution_rer_barbarous_plunder_effect_success: "All non $policy_raidresource_honor$ raid gains have §Y2 times§! more resources, exploit profits from your enemies!\n\nGalactic Community members that set §Y$policy_raidresource_outlaw$§! of their §Y$policy_policy_raidresource$§! Policy will receive the §RPenalties§!."
+ resolution_rer_honor_before_reason: "Honor Before Reason"
+ resolution_rer_honor_before_reason_desc: "There's no honor should such raid is existed, yet, everyone must challenge the battles of the ground, regardless dangers are lurking within or not - even it's a trap."
+ resolution_rer_honor_before_reason_effect_success: "$policy_raidresource_honor$ raid gains §Y3 times§! more glories from the enemies!\n\nThe requirement of $policy_raidresource_honor$ raid is relaxed for §YNon-Pacifist§!, §YNon-Xenophobe§!, and §YNon-Gestalt§! Empires.\n\nGalactic Community members that unable to set §Y$policy_raidresource_honor$§! of their §Y$policy_policy_raidresource$§! Policy will receive the §RPenalties§!."
+
+ resolution_rer_repeal_zero_raid_policy: "Repeal $resolution_rer_zero_raid_policy$"
+ resolution_rer_repeal_zero_raid_policy_desc: "$resolution_rer_zero_raid_policy$'s harsh rules caused unfair penalties for most empires, the resolution itself had became the biggest crime of all time, ironically."
+ resolution_rer_repeal_zero_raid_policy_effect_success: "Repeal all the effects of $resolution_rer_zero_raid_policy$."
+ resolution_rer_repeal_minimal_snatches: "Repeal $resolution_rer_minimal_snatches$"
+ resolution_rer_repeal_minimal_snatches_desc: "$resolution_rer_minimal_snatches$ is a one step forward for certain empires, two steps back for most situations, it's no longer needed."
+ resolution_rer_repeal_minimal_snatches_effect_success: "Repeal all the effects of $resolution_rer_minimal_snatches$."
+ resolution_rer_repeal_barbarous_plunder: "Repeal $resolution_rer_barbarous_plunder$"
+ resolution_rer_repeal_barbarous_plunder_desc: "Raiding is not where you find the business - casualties are."
+ resolution_rer_repeal_barbarous_plunder_effect_success: "Repeal all the effects of $resolution_rer_barbarous_plunder$."
+ resolution_rer_repeal_honor_before_reason: "Repeal $resolution_rer_honor_before_reason$"
+ resolution_rer_repeal_honor_before_reason_desc: "Unable to know the intel of your enemies could be every empires' downfall. Gathering intel is as important as having a mountain of troops. What are you trying to prove, when there is no honor in battlefield?"
+ resolution_rer_repeal_honor_before_reason_effect_success: "Repeal all the effects of $resolution_rer_honor_before_reason$."
+
+
+ 
+ RAID_WONT_RAID: "§EWon't raid planets automatically§!"
+ RAID_AUTO: "§EAutomatically raid hostile Planets when possible§!"
+ RAID_NO_KILL: "§EWon't kill any pop in the process§!"
+ RAID_KILL: "§RWill cause several casualties and Diplomatic Penalties§!"
+ RAID_KILL_2: "§RWill cause Diplomatic Penalties§!"
+ RAID_GENOCIDE: "§EMay gain additional resources while having Genocidal Civic§!"
+ #RAID_MORE_2: "Can gain more resources from invading planets with §Y$policy_policy_raidresource$§! policy enabled."
+ RAID_MORE: "Allow us to gain more resources from raiding hostile planets (If §Y$policy_policy_raidresource$§! policy is on)."
+ 
+ #civic_tooltip_barbaric_despoilers_effects:6 "Cannot form §YMigration Treaties§!\nCannot join §YFederations§!\nHas the '§Y$casus_belli_cb_despoliation$§!' casus belli on all other empires\n$allow_raiding$\n$RAID_MORE_2$\nDecreased §YOpinion§! for most other empires"
+ 
+ opinion_raidresources_1:0 "Raided our Station"
+ opinion_raidresources_2:0 "Raided our Planet"
+ opinion_raidresources_3:0 "Barbarous Raider"
+ #opinion_raid_policy:0 "Offensive Raid Policy"
+ #opinion_honor:0 "Fellow Warrior"
+
+ raidresource_cannot_raid_tooltip:0 "§YCannot be able to plunder this planet until this modifier expires.§!"
+ 
+ raidresource_planet_get_raided: "Planet Raided"
+ raidresource_planet_get_raided_desc: "This Planet was raided recently. It can't be raided again until it recovers from the resource losses.\n\n$raidresource_cannot_raid_tooltip$"
+ #raidresource_planet_get_raided_light:0 "$raidresource_planet_get_raided$"
+ #raidresource_planet_get_raided_light_desc:0 "$raidresource_planet_get_raided_desc$"
+ raidresource_planet_get_raided_heavy: "$raidresource_planet_get_raided$"
+ raidresource_planet_get_raided_heavy_desc: "$raidresource_planet_get_raided_desc$"
+ #raidresource_planet_get_raided_honor:0 "$raidresource_planet_get_raided$"
+ #raidresource_planet_get_raided_honor_desc:0 "This Planet was secured by a group of Armies, leaving anything resource in this planet untouched.\n\n$raidresource_cannot_raid_tooltip$"
+ #raidresource_planet_get_raided_restored:0 "Recovered Planet"
+ #raidresource_planet_get_raided_restored_desc:0 "This Planet's ecomony was restored back to their previous status.\n\n$raidresource_cannot_raid_tooltip$"
+ 
+ raidresource_planet_get_raided_building_slot_lose_lv1: "Building Raided"
+ raidresource_planet_get_raided_building_slot_lose_lv1_desc: "Being brutally raided represents major losses, even buildings too."
+ raidresource_planet_get_raided_building_slot_lose_lv2: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv2_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv3: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv3_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv4: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv4_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv5: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv5_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv6: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv6_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv7: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv7_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv8: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv8_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv9: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv9_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+ raidresource_planet_get_raided_building_slot_lose_lv10: "$raidresource_planet_get_raided_building_slot_lose_lv1$"
+ raidresource_planet_get_raided_building_slot_lose_lv10_desc: "$raidresource_planet_get_raided_building_slot_lose_lv1_desc$"
+
+ #edict_raidresource_planet_restore:0 "§YRestore Planet§!"
+ #edict_raidresource_planet_restore_desc:0 "Using our Influence to bring the Planet's ecomony back to their once fully status.\n\n§EOnly available when Planet being raided§!\n\n§YAfter restored, this Planet will be immuned from raid for 10 years.§!"
+ 
+ policy_policy_raidresource:0 "Raid Planet Measure"
+ policy_policy_raidresource_desc:0 "During the war, securing hostile planets is inevitable, and some of them hold a worth-counting of resources. Here we can determine the measure to raid."
+ #policy_raidresource_medium:0 "Medium"
+ #policy_raidresource_medium_name:0 "Medium"
+ #policy_raidresource_medium_desc:0 "Gain £energy  §YEnergy§! and £minerals  §YMinerals§! depends on £planetsize  Planet's Size and its development. Once raided, the Planet cannot be raided for 15 years.\n§EAutomatically raid the planet when possible§!\n\n§RThis raid might cause building collapse and casualties.§!\n§RDoing this during war will have Diplomatic Penalty.§!"
+ policy_raidresource_light: "Regular"
+ policy_raidresource_light_name: "Regular"
+ policy_raidresource_light_desc: "Gain amount of resources depends on the Planet's £pop£ §YPopulations§!, £building£ §YBuildings§! and £job£ §YPop Jobs§!. Once raided, the Planet cannot be raided again for §Y10§! years.\n\n$RAID_AUTO$\n\n$RAID_NO_KILL$\n"
+ policy_raidresource_heavy: "Ruthless"
+ policy_raidresource_heavy_name: "Ruthless"
+ policy_raidresource_heavy_desc: "Similar as Regular, we will attempt to take all of the resources as many as possible, the life of people on it doesn't matter. This might kill £pop£ §YPopulations§! and destroy £building£ §YBuildings§! in the process, making the raided planet even more devastated. Once raided, the planet cannot be raided again for §Y10§! years.\n\n$RAID_GENOCIDE$\n\n$RAID_AUTO$\n\n$RAID_KILL$\n"
+ policy_raidresource_outlaw: "Outlawed"
+ policy_raidresource_outlaw_name: "Outlawed"
+ policy_raidresource_outlaw_desc: "Even the defeaters have their own problems to handle, such a raid should not be necessary.\n\n$RAID_WONT_RAID$\n"
+ policy_raidresource_honor: "Honor"
+ policy_raidresource_honor_name: "Honor"
+ policy_raidresource_honor_desc: "Through the various ground battles for the empire's glory. Gain £unity£ §YUnity§!, §YResearch Points§!, and minor £influence£ §YInfluence§! depends on the Planet's development. Once raided, the Planet cannot be raided again for §Y10§! years.\n\n$RAID_AUTO$\n\n§EWon't take any hostile planets' matter resources§!\n\n$RAID_NO_KILL$\n"
+ 
+ #policy_policy_raidresource_station:0 "Raiding Station Measure"
+ #policy_policy_raidresource_station_desc:0 "In addition of the Planet Raiding, we can also decided whether to raid their stations, should such a idea come into mind."
+ #policy_raidresource_station_allow:0 "Allow"
+ #policy_raidresource_station_allow_name:0 "Allow"
+ #policy_raidresource_station_allow_desc:0 "Raid one Mining Station will give us £energy  §YEnergy§! and £minerals  §YMinerals§! equal to a tenth of our monthly gain, up to 300 each.\n\nRaid one Research Station will give us §YResearch Points§! equal to a half of our monthly gain.\n\nRaid Stations will gain us £unity  §GUnity§! when we have §YBarbaric Despoilers§! civic\n\n§RDoing this will upset victim Empires.§!"
+ #policy_raidresource_station_outlaw:0 "Outlaw"
+ #policy_raidresource_station_outlaw_name:0 "Outlaw"
+ #policy_raidresource_station_outlaw_desc:0 "Won't raid Mining & Research Stations when destroying them."
+ 
+ raidresource.9.name: "[From.From.From.GetName] Lost"
+ raidresource.9.desc: "§H[From.From.From.GetName]§! just lost to the §H[From.GetName]§!'s fierce attack. The following resources had been taken by the §H[From.GetName]§!:"
+ raidresource.9.a: "Stop them!"
+ raidresource.9.b: "We will not forget this."
+ raidresource.9.c: "Those filthy Xenos will pay for this!"
+ raidresource.10.name: "[FromFrom.GetName] Secured"
+ raidresource.10.desc: "While securing §H[FromFrom.GetName]§! of the §H[From.GetName]§!, we have gained the following resources:"
+ raidresource.10.desc_primate: "While securing §H[FromFrom.GetName]§!, the following resources have been added into our Empire's account:"
+ raidresource.10.desc_honor: "Our warriors have secured §H[From.From.GetName]§!, their brave actions in ground conflict will not soon to be forgotten."
+ raidresource.10.research: "The following research results and inspires found on §H[FromFrom.GetName]§! had been added into our Empire:"
+ raidresource.tooltip_food: "£food£ §G[FromFrom.rer_food]§!§H $food$§!"
+ raidresource.tooltip_minerals: "£minerals£ §G[FromFrom.rer_minerals]§!§H $minerals$§!"
+ raidresource.tooltip_energy: "£energy£ §G[FromFrom.rer_energy]§!§H $energy$§!"
+ raidresource.tooltip_phy_research: "£physics£ §G[FromFrom.rer_physics_research]§!§H $physics_research$§!"
+ raidresource.tooltip_soc_research: "£society£ §G[FromFrom.rer_society_research]§!§H $society_research$§!"
+ raidresource.tooltip_eng_research: "£engineering£ §G[FromFrom.rer_engineering_research]§!§H $engineering_research$§!"
+ raidresource.tooltip_unity: "£unity£ §G[FromFrom.rer_unity]§!§H $unity$§!"
+ raidresource.tooltip_influence: "£influence£ §G[FromFrom.rer_influence]§!§H $influence$§!"
+ raidresource.tooltip_goods: "£consumer_goods£ §G[FromFrom.rer_consumer_goods]§!§H $consumer_goods$§!"
+ raidresource.tooltip_alloys: "£alloys£ §G[FromFrom.rer_alloys]§!§H $alloys$§!"
+ raidresource.tooltip_trade: "£trade£ §G[FromFrom.rer_trade]§!§H $trade$§!"
+ raidresource.tooltip_volatile_motes: "£volatile_motes£ §G[FromFrom.rer_volatile_motes]§!§H $volatile_motes$§!"
+ raidresource.tooltip_rare_crystals: "£rare_crystals£ §G[FromFrom.rer_rare_crystals]§!§H $rare_crystals$§!"
+ raidresource.tooltip_exotic_gases: "£exotic_gases£ §G[FromFrom.rer_exotic_gases]§!§H $exotic_gases$§!"
+ raidresource.tooltip_living_metal: "£sr_living_metal£ §G[FromFrom.rer_sr_living_metal]§!§H $sr_living_metal$§!"
+ raidresource.tooltip_zro: "£sr_zro£ §G[FromFrom.rer_sr_zro]§!§H $sr_zro$§!"
+ raidresource.tooltip_dark_matter: "£sr_dark_matter£ §G[FromFrom.rer_sr_dark_matter]§!§H $sr_dark_matter$§!"
+ raidresource.tooltip_nanites: "£nanites£ §G[FromFrom.rer_nanites]§!§H $nanites$§!"
+ raidresource.tooltip_minor_artifacts: "£minor_artifacts£ §G[FromFrom.rer_minor_artifacts]§!§H $minor_artifacts$§!"
+ raidresource.tooltip_pop: "§R[FromFrom.rer_died_pop]§! £pop£ §YPop§! of §H[FromFrom.GetName]§! died during the raid."
+ raidresource.tooltip_pops: "§R[FromFrom.rer_died_pop]§! £pop£ §YPops§! of §H[FromFrom.GetName]§! died during the raid."
+ 
+ raidresource.10.a: "Score!"
+ raidresource.10.b: "Take everything they can see!"
+ raidresource.10.c: "Stonks."
+ 
+ raidresource.10.c_emperor: "For the [Root.GetRulerTitle]!"
+ raidresource.10.a_warrior: "To victory!"
+ raidresource.10.b_warrior: "Victory shall be ours!"
+ raidresource.10.c_warrior: "Glory to the [Root.GetName]!"
+ 
+ raidresource.10.meme_warrior: "'V I C T O R Y   R O Y A L E'"
+ 
+ raidresource.10.a_fp: "Another victory against lesser Xenos."
+ raidresource.10.b_fp: "Raid, purge, kill!"
+ raidresource.10.c_fp: "$raidresource.10.c$"
+ 
+ raidresource.10.meme_bs: "Rush B, no stop!"
+ raidresource.10.a_bs: "Khaaaaaaaan!"
+ raidresource.10.b_bs: "What a Score!"
+ raidresource.10.c_bs: "Stonks."
+ 
+ raidresource.10.a_machine: "Approved."
+ raidresource.10.b_machine: "Tremendous."
+ raidresource.10.c_machine: "<<Enormous resources detected. Initializing recycle protocols.>>"
+ 
+ raidresource.10.meme_machine: "01001101 01001111 01010010 01000101"
+ raidresource.10.meme_hive: "M O R E"
+ 
+ raidresource.10.c_hive: "The Collective thrives."
+ 
+ raidresource.10.a_ds: "Harvest."
+ raidresource.10.b_ds: "Harvest. Consume."
+ raidresource.10.c_ds: "Harvest. Consume. Evolue."
+ 
+ raidresource.11.name: "$raidresource.9.name$"
+ raidresource.11.desc: "§H[From.From.From.GetName]§! just lost to the §H[From.GetName]§!'s fierce attack. Fortunately they hold no interest on our resources, thus we don't lost anything but §H[From.From.From.GetName]§!."
+ raidresource.11.a: "Good to know."
+ raidresource.9.tooltip_food: "£food£ §R-[FromFromFrom.rer_food]§!§H $food$§!"
+ raidresource.9.tooltip_minerals: "£minerals£ §R-[FromFromFrom.rer_minerals]§!§H $minerals$§!"
+ raidresource.9.tooltip_energy: "£energy£ §R-[FromFromFrom.rer_energy]§!§H $energy$§!"
+ raidresource.9.tooltip_phy_research: "£physics£ §R-[FromFromFrom.rer_physics_research]§!§H $physics_research$§!"
+ raidresource.9.tooltip_soc_research: "£society£ §R-[FromFromFrom.rer_society_research]§!§H $society_research$§!"
+ raidresource.9.tooltip_eng_research: "£engineering£ §R-[FromFromFrom.rer_enginggering_research]§!§H $engineering_research$§!"
+ raidresource.9.tooltip_unity: "£unity£ §R-[FromFromFrom.rer_unity]§!§H $unity$§!"
+ raidresource.9.tooltip_goods: "£consumer_goods£ §R-[FromFromFrom.rer_consumer_goods]§!§H $consumer_goods$§!"
+ raidresource.9.tooltip_alloys: "£alloys£ §R-[FromFromFrom.rer_alloys]§!§H $alloys$§!"
+ raidresource.9.tooltip_trade: "£trade£ §R-[FromFromFrom.rer_trade]§!§H $trade$§!"
+ raidresource.9.tooltip_volatile_motes: "£volatile_motes£ §R-[FromFromFrom.rer_volatile_motes]§!§H $volatile_motes$§!"
+ raidresource.9.tooltip_rare_crystals: "£rare_crystals£ §R-[FromFromFrom.rer_rare_crystals]§!§H $rare_crystals$§!"
+ raidresource.9.tooltip_exotic_gases: "£exotic_gases£ §R-[FromFromFrom.rer_exotic_gases]§!§H $exotic_gases$§!"
+ raidresource.9.tooltip_living_metal: "£sr_living_metal£ §R-[FromFromFrom.rer_sr_living_metal]§!§H $sr_living_metal$§!"
+ raidresource.9.tooltip_zro: "£sr_zro£ §R-[FromFromFrom.rer_sr_zro]§!§H $sr_zro$§!"
+ raidresource.9.tooltip_dark_matter: "£sr_dark_matter£ §R-[FromFromFrom.rer_sr_dark_matter]§!§H $sr_dark_matter$§!"
+ raidresource.9.tooltip_nanites: "£nanites£ §R-[FromFromFrom.rer_nanites]§!§H $nanites$§!"
+ raidresource.9.tooltip_minor_artifacts: "£minor_artifacts£ §R-[FromFromFrom.rer_minor_artifacts]§!§H $minor_artifacts$§!"
+ raidresource.9.tooltip_pop: "§R[FromFromFrom.rer_died_pop]§! £pop£ §HPop§! dies from the raid."
+ raidresource.9.tooltip_pops: "§R[FromFromFrom.rer_died_pop]§! £pop£ §HPops§! get killed from the raid."
+ 
+ raidresource.13.desc: "We have secured §H[From.From.GetName]§!, our troops' brave actions in the ground conflict shall not soon be forgotten."
+ 
+ 
+ 
+ raidresource.21.title: "The Fall of [event_target:rer_planet.GetName]"
+ #First part
+ raidresource.21.desc1_1: "§H[event_target:rer_attacker.GetSpeciesAdj]§! forces advancing in [event_target:rer_system.GetName] system have succeeded in capturing §H[event_target:rer_planet.GetName]§!."
+ raidresource.21.desc1_2: "While fighting still rages elsewhere in [event_target:rer_system.GetName] system, reports have come in of the §H[event_target:rer_attacker.GetSpeciesAdj]§! troops securing §H[event_target:rer_planet.GetName]§!."
+ raidresource.21.desc1_3: "Reports from §H[event_target:rer_planet.GetName]§! confirm that the §H[event_target:rer_defender.GetName]§! capital has been captured by advancing §H[event_target:rer_attacker.GetSpeciesAdj]§! troops."
+ raidresource.21.desc1_4: "§H[event_target:rer_planet.GetName]§!, homeworld of the §H[event_target:rer_defender.GetSpeciesNamePlural]§!, has fallen to advancing §H[event_target:rer_attacker.GetSpeciesAdj]§! forces." #homeworld
+ raidresource.21.desc1_5: "§H[event_target:rer_planet.GetName]§!, capital of the §H[event_target:rer_defender.GetName]§!, has been captured by the advancing §H[event_target:rer_attacker.GetSpeciesAdj]§! armies in the [event_target:rer_system.GetName] system." #capital
+ raidresource.21.desc1_6: "The last heavily fortified city of §H[event_target:rer_planet.GetName]§!, base of the §H[event_target:rer_defender.GetName]§!, has finally succumbed to §H[event_target:rer_attacker.GetName]§! attacks."
+ raidresource.21.desc1_7: "Earlier today, §H[event_target:rer_attacker.GetSpeciesAdj]§! forces successfully occupied §H[event_target:rer_planet.GetName]§! in the [event_target:rer_system.GetName] system."
+ raidresource.21.desc1_8: "Forces from §H[event_target:rer_attacker.GetName]§! have fought their way to §H[event_target:rer_planet.GetName]§!, the capital system of §H[event_target:rer_defender.GetName]§!." #capital
+ raidresource.21.desc1_9: "Fighting in the area of §H[event_target:rer_planet.GetName]§! came to an end today, when the last pockets of resistance in the fortress were eliminated by §H[event_target:rer_attacker.GetAdj]§! forces."
+ raidresource.21.desc1_10: "Further expanding on its conquests in the §H[event_target:rer_defender.GetName]§!, §H[event_target:rer_attacker.GetName]§! has seized §H[event_target:rer_planet.GetName]§! and the §H[event_target:rer_defender.GetAdj]§! capital §H[event_target:rer_planet.GetName]§!." #capital
+ raidresource.21.desc1_11: "After several conflicting reports, it has now been confirmed that §H[event_target:rer_planet.GetName]§! has fallen to §H[event_target:rer_attacker.GetName]§!."
+ raidresource.21.desc1_12: "§H[event_target:rer_attacker.GetAdj]§! soldiers entered §H[event_target:rer_planet.GetName]§! today, moments after the last §H[event_target:rer_defender.GetAdj]§! units retreated from the planet."
+ raidresource.21.desc1_13: "The last pockets of §H[event_target:rer_defender.GetAdj]§! resistance in §H[event_target:rer_planet.GetName]§! were mopped up today, and the planet is now firmly under §H[event_target:rer_attacker.GetAdj]§! control."
+ raidresource.21.desc1_14: "After a period of fierce combat, it has now been confirmed that §H[event_target:rer_planet.GetName]§! of §H[event_target:rer_defender.GetAdj]§! in [event_target:rer_system.GetName] systen has fallen to advancing §H[event_target:rer_attacker.GetAdj]§! forces."
+ 
+ #Second part
+ #capital
+ raidresource.21.desc2_1: "Sporadic fighting continues in a few other districts, but organized resistance in the planet seems to have ceased. The loss of the capital is a serious blow to the §H[event_target:rer_defender.GetName]§!."
+ raidresource.21.desc2_2: "Small-arms fire can still be heard from some regions, but no significant §H[event_target:rer_defender.GetSpeciesAdj]§! forces have been sighted within the cities."
+ raidresource.21.desc2_3: "Sporadic fighting can still be heard from some suburbs, but a strange calm appears to have settled over the rest of the ruined planetary sectors."
+ raidresource.21.desc2_4: "Its loss will severely hamper any §H[event_target:rer_defender.GetSpeciesNamePlural]§! attempt to retake the system, and the fall of the §H[event_target:rer_planet.GetName]§! is regarded as a significant §H[event_target:rer_attacker.GetAdj]§! victory."
+ raidresource.21.desc2_5: "As §H[event_target:rer_attacker.GetAdj]§! forces retreated further in disarray, §H[event_target:rer_attacker.GetSpeciesAdj]§! soldiers marching through main cities of §H[event_target:rer_planet.GetName]§!."
+ 
+ raidresource.21.a: "They did not stand a chance."
+ raidresource.21.b: "Great news!"

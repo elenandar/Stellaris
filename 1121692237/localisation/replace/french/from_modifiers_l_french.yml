@@ -1,0 +1,93 @@
+﻿l_french:
+  country_modifiers:0 "Modificateurs"
+  # Monthly ££ ResourceName
+  mod_country_modifiers_energy_produces_add:0 "£energy£ Énergie mensuelle"
+  mod_country_modifiers_energy_produces_mult:0 "£energy£ Énergie mensuelle"
+  mod_country_modifiers_energy_upkeep_add:0 "Entretien mensuel en £energy£ Énergie"
+  mod_country_modifiers_energy_upkeep_mult:0 "Entretien mensuel en £energy£ Énergie"
+  
+  mod_country_modifiers_minerals_produces_add:0 "£minerals£ Minéraux mensuels"
+  mod_country_modifiers_minerals_produces_mult:0 "£minerals£ Minéraux mensuels"
+  mod_country_modifiers_minerals_upkeep_add:0 "Entretien mensuel en £minerals£ Minéraux"
+  mod_country_modifiers_minerals_upkeep_mult:0 "Entretien mensuel en £minerals£ Minéraux"
+  
+  mod_country_modifiers_alloys_produces_add:0 "£alloys£ Alliages mensuels"
+  mod_country_modifiers_alloys_produces_mult:0 "£alloys£ Alliages mensuels"
+  mod_country_modifiers_alloys_upkeep_add:0 "Entretien mensuel en £alloys£ Alliages"
+  mod_country_modifiers_alloys_upkeep_mult:0 "Entretien mensuel en £alloys£ Alliages"
+  
+  mod_country_modifiers_food_produces_add:0 "£food£ Nourriture mensuelle"
+  mod_country_modifiers_food_produces_mult:0 "£food£ Nourriture mensuelle"
+  mod_country_modifiers_food_upkeep_add:0 "Entretien mensuel en £food£ Nourriture"
+  mod_country_modifiers_food_upkeep_mult:0 "Entretien mensuel en £food£ Nourriture"
+  
+  mod_country_modifiers_consumer_goods_produces_add:0 "£consumer_goods£ Biens de consommation mensuels"
+  mod_country_modifiers_consumer_goods_produces_mult:0 "£consumer_goods£ Biens de consommation mensuels"
+  mod_country_modifiers_consumer_goods_upkeep_add:0 "Entretien mensuel en £consumer_goods£ Biens de consommation"
+  mod_country_modifiers_consumer_goods_upkeep_mult:0 "Entretien mensuel en £consumer_goods£ Biens de consommation"
+  
+  mod_country_modifiers_unity_produces_add:0 "£unity£ Unité mensuelle"
+  mod_country_modifiers_unity_produces_mult:0 "£unity£ Unité mensuelle"
+  mod_country_modifiers_unity_upkeep_add:0 "Entretien mensuel en £unity£ Unité"
+  mod_country_modifiers_unity_upkeep_mult:0 "Entretien mensuel en £unity£ Unité"
+  
+  mod_country_modifiers_influence_produces_add:0 "£influence£ Influence mensuelle"
+  mod_country_modifiers_influence_produces_mult:0 "£influence£ Influence mensuelle"
+  mod_country_modifiers_influence_upkeep_add:0 "Entretien mensuel en £influence£ Influence"
+  mod_country_modifiers_influence_upkeep_mult:0 "Entretien mensuel en £influence£ Influence"
+  
+  mod_country_modifiers_physics_research_produces_add:0 "£physics£ Recherche en physique mensuelle"
+  mod_country_modifiers_physics_research_produces_mult:0 "£physics£ Recherche en physique mensuelle"
+  mod_country_modifiers_physics_research_upkeep_add:0 "Entretien mensuel en £physics£ Recherche en physique"
+  mod_country_modifiers_physics_research_upkeep_mult:0 "Entretien mensuel en £physics£ Recherche en physique"
+  
+  mod_country_modifiers_society_research_produces_add:0 "£society£ Recherche en société mensuelle"
+  mod_country_modifiers_society_research_produces_mult:0 "£society£ Recherche en société mensuelle"
+  mod_country_modifiers_society_research_upkeep_add:0 "Entretien mensuel en £society£ Recherche en société"
+  mod_country_modifiers_society_research_upkeep_mult:0 "Entretien mensuel en £society£ Recherche en société"
+  
+  mod_country_modifiers_engineering_research_produces_add:0 "£engineering£ Recherche en ingénierie mensuelle"
+  mod_country_modifiers_engineering_research_produces_mult:0 "£engineering£ Recherche en ingénierie mensuelle"
+  mod_country_modifiers_engineering_research_upkeep_add:0 "Entretien mensuel en £engineering£ Recherche en ingénierie"
+  mod_country_modifiers_engineering_research_upkeep_mult:0 "Entretien mensuel en £engineering£ Recherche en ingénierie"
+  
+  mod_country_modifiers_rare_crystals_produces_add:0 "£rare_crystals£ Cristaux rares mensuels"
+  mod_country_modifiers_rare_crystals_produces_mult:0 "£rare_crystals£ Cristaux rares mensuels"
+  mod_country_modifiers_rare_crystals_upkeep_add:0 "Entretien mensuel en £rare_crystals£ Cristaux rares"
+  mod_country_modifiers_rare_crystals_upkeep_mult:0 "Entretien mensuel en £rare_crystals£ Cristaux rares"
+  
+  mod_country_modifiers_exotic_gases_produces_add:0 "£exotic_gases£ Gaz exotiques mensuels"
+  mod_country_modifiers_exotic_gases_produces_mult:0 "£exotic_gases£ Gaz exotiques mensuels"
+  mod_country_modifiers_exotic_gases_upkeep_add:0 "Entretien mensuel en £exotic_gases£ Gaz exotiques"
+  mod_country_modifiers_exotic_gases_upkeep_mult:0 "Entretien mensuel en £exotic_gases£ Gaz exotiques"
+  
+  mod_country_modifiers_volatile_motes_produces_add:0 "£volatile_motes£ Poussières volatiles mensuelles"
+  mod_country_modifiers_volatile_motes_produces_mult:0 "£volatile_motes£ Poussières volatiles mensuelles"
+  mod_country_modifiers_volatile_motes_upkeep_add:0 "Entretien mensuel en £volatile_motes£ Poussières volatiles"
+  mod_country_modifiers_volatile_motes_upkeep_mult:0 "Entretien mensuel en £volatile_motes£ Poussières volatiles"
+  
+  mod_country_modifiers_sr_living_metal_produces_add:0 "£sr_living_metal£ Métal vivant mensuel"
+  mod_country_modifiers_sr_living_metal_produces_mult:0 "£sr_living_metal£ Métal vivant mensuel"
+  mod_country_modifiers_sr_living_metal_upkeep_add:0 "Entretien mensuel en £sr_living_metal£ Métal vivant"
+  mod_country_modifiers_sr_living_metal_upkeep_mult:0 "Entretien mensuel en £sr_living_metal£ Métal vivant"
+  
+  mod_country_modifiers_sr_zro_produces_add:0 "£sr_zro£ Zro mensuel"
+  mod_country_modifiers_sr_zro_produces_mult:0 "£sr_zro£ Zro mensuel"
+  mod_country_modifiers_sr_zro_upkeep_add:0 "Entretien mensuel en £sr_zro£ Zro"
+  mod_country_modifiers_sr_zro_upkeep_mult:0 "Entretien mensuel en £sr_zro£ Zro"
+  
+  mod_country_modifiers_sr_dark_matter_produces_add:0 "£sr_dark_matter£ Matière noire mensuelle"
+  mod_country_modifiers_sr_dark_matter_produces_mult:0 "£sr_dark_matter£ Matière noire mensuelle"
+  mod_country_modifiers_sr_dark_matter_upkeep_add:0 "Entretien mensuel en £sr_dark_matter£ Matière noire"
+  mod_country_modifiers_sr_dark_matter_upkeep_mult:0 "Entretien mensuel en £sr_dark_matter£ Matière noire"
+  
+  mod_country_modifiers_nanites_produces_add:0 "£nanites£ Nanites mensuelles"
+  mod_country_modifiers_nanites_produces_mult:0 "£nanites£ Nanites mensuelles"
+  mod_country_modifiers_nanites_upkeep_add:0 "Entretien mensuel en £nanites£ Nanites"
+  mod_country_modifiers_nanites_upkeep_mult:0 "Entretien mensuel en £nanites£ Nanites"
+  
+  mod_country_modifiers_minor_artifacts_produces_add:0 "£minor_artifacts£ Artefacts mineurs mensuels"
+  mod_country_modifiers_minor_artifacts_produces_mult:0 "£minor_artifacts£ Artefacts mineurs mensuels"
+  mod_country_modifiers_minor_artifacts_upkeep_add:0 "Entretien mensuel en £minor_artifacts£ Artefacts mineurs"
+  mod_country_modifiers_minor_artifacts_upkeep_mult:0 "Entretien mensuel en £minor_artifacts£ Artefacts mineurs"
+  

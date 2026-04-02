@@ -1,0 +1,54 @@
+﻿l_russian:
+
+##################################################################################################################################################################################################################
+### TOOLTIPS ###
+################
+
+requires_no_existing_nsc_factory: "Можно построить только одну фабрику стратегических ресурсов."
+requires_no_existing_mall: "Можно построить только один галактический торговый центр."
+requires_no_existing_hospital: "Можно построить только одну галактическую центральную больницу."
+requires_no_existing_nsc_headquarters: "Можно построить только один штаб флота."
+
+TBA: "\n§g(- Описание будет добавлено -)§!\n"
+
+starbase_management_limit: "§RВ империи может существовать не более пяти §Y$sm_starbase_management$§!.§!"
+starbase_management_machine_limit: "§RВ империи может существовать не более пяти §Y$sm_starbase_management_machine$§!.§!"
+starbase_management_hive_limit: "§RВ империи может существовать не более пяти §Y$sm_starbase_management_hive$§!.§!"
+requires_colony: "Требуется колонизированная планета"
+requires_stronghold: "Требуется звёздная база «Великая цитадель»"
+
+requires_technology_hyperlane_generation: "$TRIGGER_FAIL$Требуется технология £physics  §Y$tech_hyperlane_generation$§!."
+
+requires_no_existing_generator_emisor: "$TRIGGER_FAIL$Невозможно построить: в империи уже существует §YГенератор гиперлиний (эмиттер)§!."
+requires_existing_generator_receptor: "$TRIGGER_FAIL$Требуется существующий §YГенератор гиперлиний (приёмник)§! в империи."
+requires_existing_generator_emisor: "$TRIGGER_FAIL$Требуется существующий §YГенератор гиперлиний (эмиттер)§! в системе, не связанной гиперлинией с §Y[Root.GetName]§!."
+requires_no_existing_system_generator_emisor: "$TRIGGER_FAIL$Невозможно построить: в системе уже существует §YГенератор гиперлиний (эмиттер)§!."
+requires_no_existing_generator_receptor: "$TRIGGER_FAIL$Невозможно построить: в империи уже существует §YГенератор гиперлиний (приёмник)§!."
+
+requires_no_existing_remover_emisor: "$TRIGGER_FAIL$Невозможно построить: в империи уже существует §YУдалитель гиперлиний (эмиттер)§!."
+requires_existing_remover_receptor: "$TRIGGER_FAIL$Требуется существующий §YУдалитель гиперлиний (приёмник)§! в империи."
+requires_existing_remover_emisor: "$TRIGGER_FAIL$Требуется существующий §YУдалитель гиперлиний (эмиттер)§! в системе, связанной гиперлинией с §Y[Root.GetName]§!."
+requires_no_existing_system_remover_emisor: "$TRIGGER_FAIL$Невозможно построить: в системе уже существует §YУдалитель гиперлиний (эмиттер)§!."
+requires_no_existing_remover_receptor: "$TRIGGER_FAIL$Невозможно построить: в империи уже существует §YУдалитель гиперлиний (приёмник)§!."
+
+nsc_headquarters_bonus: "Бонус штабной станции"
+nsc_ftl_disrupted: "Гипердвигатель подавлен"
+
+requires_technology_exploration_cruiser: "Требуется §HИсследователь (уровень 1)§!"
+requires_technology_automated_exploration: "Требуется §BПротоколы автоматического исследования§!"
+requires_discovery_tree: "Требуется завершить §Mтрадицию «Открытия»§!"
+
+starbase_h_limit.tooltip.fail: "Нельзя построить более 6 ангарных отсеков на одной звёздной базе."
+starbase_t_limit.tooltip.fail: "Нельзя установить более 2 титанических орудий на одной звёздной базе."
+starbase_xl_limit.tooltip.fail: "Нельзя установить более 6 XL-орудий на одной звёздной базе."
+
+starbase_filler_limit_3.tooltip.fail: "Нельзя построить более 3 таких модулей на одной звёздной базе."
+starbase_filler_limit_6.tooltip.fail: "Нельзя построить более 6 таких модулей на одной звёздной базе."
+starbase_filler_limit.tooltip_10.fail: "Нельзя построить более 10 таких модулей на одной звёздной базе."
+
+nsc.requires.asteroid: "Требуется астероид в системе."
+
+CLOAKING_FRIGATE_TOOLTIP: "Бонус к скорости корабля: §G25%§!\nБонус к уклонению фрегата: §G15%§!"
+CLOAKING_BATTLECRUISER_TOOLTIP: "Снижение щитов линейного крейсера: §R80%§!\nСнижение скорости линейного крейсера: §R50%§!"
+
+starbase_detection_limit_6.tooltip.fail: "Нельзя построить более 6 массивов обнаружения на одной звёздной базе."

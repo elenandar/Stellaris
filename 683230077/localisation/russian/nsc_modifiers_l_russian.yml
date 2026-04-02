@@ -1,0 +1,104 @@
+l_russian:
+
+##################################################################################################################################################################################################################
+### MODIFIERS ###
+#################
+
+mod_ships_energy_produces_add: "Производство энергии"
+mod_ships_physics_research_produces_add: "Физические исследования"
+mod_ships_society_research_produces_add: "Общественные исследования"
+mod_ships_engineering_research_produces_add: "Инженерные исследования"
+mod_ships_alloys_produces_add: "Производство сплавов"
+
+mod_ship_colossus_cost_mult: "Стоимость строительства колосса"
+mod_shipsize_colossus_build_speed_mult: "Скорость строительства колосса"
+
+mod_ship_juggernaut_cost_mult: "Стоимость строительства джаггернаута"
+mod_shipsize_juggernaut_build_speed_mult: "Скорость строительства джаггернаута"
+
+mod_shipsize_StrikeCruiser_upkeep_mult: "Содержание ударного крейсера"
+mod_shipsize_StrikeCruiser_hull_mult: "Очки корпуса ударного крейсера"
+mod_shipsize_StrikeCruiser_build_speed_mult: "Скорость строительства ударного крейсера"
+mod_ship_StrikeCruiser_cost_mult: "Стоимость строительства ударного крейсера"
+
+mod_shipsize_Battlecruiser_upkeep_mult: "Содержание линейного крейсера"
+mod_shipsize_Battlecruiser_hull_mult: "Очки корпуса линейного крейсера"
+mod_shipsize_Battlecruiser_build_speed_mult: "Скорость строительства линейного крейсера"
+mod_ship_Battlecruiser_cost_mult: "Стоимость строительства линейного крейсера"
+
+mod_shipsize_Carrier_upkeep_mult: "Содержание авианосца"
+mod_shipsize_Carrier_hull_mult: "Очки корпуса авианосца"
+mod_shipsize_Carrier_build_speed_mult: "Скорость строительства авианосца"
+mod_ship_Carrier_cost_mult: "Стоимость строительства авианосца"
+
+mod_shipsize_Dreadnought_upkeep_mult: "Содержание дредноута"
+mod_shipsize_Dreadnought_hull_mult: "Очки корпуса дредноута"
+mod_shipsize_Dreadnought_build_speed_mult: "Скорость строительства дредноута"
+mod_ship_Dreadnought_cost_mult: "Стоимость строительства дредноута"
+
+mod_shipsize_titan_upkeep_mult: "Содержание титана"
+mod_shipsize_titan_hull_mult: "Очки корпуса титана"
+mod_shipsize_titan_build_speed_mult: "Скорость строительства титана"
+mod_ship_titan_cost_mult: "Стоимость строительства титана"
+
+mod_shipsize_Flagship_upkeep_mult: "Содержание флагмана"
+mod_shipsize_Flagship_hull_mult: "Очки корпуса флагмана"
+mod_shipsize_Flagship_build_speed_mult: "Скорость строительства флагмана"
+mod_ship_Flagship_cost_mult: "Стоимость строительства флагмана"
+
+mod_shipsize_headquarters_build_speed_mult: "Скорость строительства штаба"
+mod_ship_headquarters_cost_mult: "Стоимость строительства штаба"
+
+mod_shipsize_explorationship_build_speed_mult: "Скорость строительства исследователя"
+mod_ship_explorationship_cost_mult: "Стоимость строительства исследователя"
+
+mod_country_resource_max_minerals_add: "Максимум минералов"
+mod_country_resource_max_energy_add: "Максимум энергии"
+
+mod_leader_commanders_upkeep_mult: "Содержание адмиралов"
+
+country_command_limit_mult: "Предел командования флотом"
+
+mod_weapon_type_point_defense_weapon_damage_mult: "Урон оружия ПКО"
+
+mod_planet_livestock_produces_mult: "Производство скота"
+mod_pop_category_purge_produces_mult: "Производство уничтожаемых поселений"
+mod_deposit_blockers_time_cost_mult: "Время расчистки блокирующих препятствий"
+
+mod_light_ship_focus: "Ставка на лёгкие корабли"
+mod_light_ship_focus_desc: "Политика, ориентированная на флот быстрых лёгких боевых кораблей. Даёт +20% к скорости строительства и -20% к стоимости строительства корветов, эсминцев и крейсеров, но поскольку наши верфи будут сосредоточены на этих типах кораблей, более крупные классы будут строиться на 20% медленнее и стоить на 20% дороже."
+mod_versatility_focus: "Ставка на крейсеры"
+mod_versatility_focus_desc: "Политика, ориентированная на флот боевых кораблей среднего размера. Даёт +20% к скорости строительства и -20% к стоимости строительства крейсеров, ударных крейсеров и линейных крейсеров, но поскольку наши верфи будут сосредоточены на этих типах кораблей, остальные классы будут строиться на 20% медленнее и стоить на 20% дороже."
+mod_capital_focus: "Ставка на крупные корабли"
+mod_capital_focus_desc: "Политика, ориентированная на флот крупных и мощных боевых кораблей. Даёт +20% к скорости строительства и -20% к стоимости строительства линкоров, авианосцев, дредноутов и титанов, но поскольку наши верфи будут сосредоточены на этих типах кораблей, более мелкие классы будут строиться на 20% медленнее и стоить на 20% дороже."
+mod_carrier_focus: "Ставка на авианосцы"
+mod_carrier_focus_desc: "Политика, ориентированная на флот авианосцев, оснащённых большим числом штурмовиков. Даёт +35% к скорости строительства и -35% к стоимости строительства эскортных авианосцев и авианосцев, но поскольку наши верфи будут сосредоточены на этих типах кораблей, остальные классы будут строиться на 20% медленнее и стоить на 20% дороже."
+
+mod_nsc_non_artificial_planet_slave_produces_mult: "Производство ресурсов поселениями категории $pop_cat_slave$ на неискусственных мирах"
+mod_nsc_non_artificial_planet_worker_produces_mult: "Производство ресурсов поселениями категории $pop_cat_worker$ на неискусственных мирах"
+mod_nsc_freebooter_jobs_produces_mult: "Производство ресурсов поселениями на средах обитания и мирах-реликтах"
+mod_nsc_freebooter_jobs_upkeep_mult: "Содержание поселений на средах обитания и мирах-реликтах"
+
+mod_shipsize_StrikeCruiser_hull_mult: "Корпус ударного крейсера"
+mod_shipsize_Battlecruiser_hull_mult: "Корпус линейного крейсера"
+mod_shipsize_Carrier_hull_mult: "Корпус авианосца"
+mod_shipsize_Dreadnought_hull_mult: "Корпус дредноута"
+mod_shipsize_Flagship_hull_mult: "Корпус флагмана"
+
+mod_brawler_weapon_damage_mult: "Урон оружия «Боец» (кинетическое S/M/L)"
+mod_gunship_weapon_damage_mult: "Урон оружия «Канонерка» (энергетическое S/M/L)"
+mod_explosive_weapon_damage_mult: "Урон оружия «Взрывное» (ракеты S/M/L)"
+
+megastructures_nsc_flagship_shipyard: "Великая верфь"
+mod_megastructures_nsc_flagship_shipyard_cost_mult: "Стоимость строительства Великой верфи"
+
+mod_shipsize_military_station_medium_build_speed_mult: "Скорость строительства оборонительной станции"
+mod_ship_military_station_medium_upkeep_mult: "Содержание оборонительной станции"
+
+mod_shipsize_military_station_large_build_speed_mult: "Скорость строительства крепости"
+mod_ship_military_station_large_upkeep_mult: "Содержание крепости"
+
+mod_shipsize_ion_cannon_hull_mult: "Очки корпуса ионной пушки"
+
+mod_commander_skill_levels: "Уровни навыка командующего"
+mod_gunship_weapon_fire_rate_mult: "Скорострельность оружия «Канонерка»"

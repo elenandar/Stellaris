@@ -1,0 +1,66 @@
+l_russian:
+
+ ####################################
+ # Species Classes
+ ####################################
+
+ AS:0 "Чужие солнца"
+ AS_desc:1 "Класс вида не влияет на вашу империю, но виды класса Carnivore могут считать других представителей класса Alien Suns менее чуждыми, чем представителей других классов."
+ AS_plural:0 "Чужие солнца"
+ AS_insult_01:0 "Kootiiki"
+ AS_insult_plural_01:0 "Ahliliedia"
+ AS_compliment_01:0 "UnwallAunall"
+ AS_compliment_plural_01:0 "Iickoortuss"
+ AS_spawn:0 "Dwha"
+ AS_spawn_plural:0 "Dwhas"
+ AS_sound_01:0 "рычание"
+ AS_sound_02:0 "ворчание"
+ AS_sound_03:0 "тявканье"
+ AS_sound_04:0 "вой"
+ AS_sound_05:0 "мяуканье"
+ AS_organ:0 "Qehex"
+ AS_mouth:0 "Thwa"
+ name_list_AS01:0 "Чужие солнца 1"
+ name_list_AS01_desc:0 " "
+
+ name_list_AS02:0 "Чужие солнца 2"
+ name_list_AS02_desc:0 " "
+
+ name_list_AS03:0 "Чужие солнца 3"
+ name_list_AS03_desc:0 " "
+
+ name_list_AS04:0 "Чужие солнца 4"
+ name_list_AS04_desc:0 " "
+
+ name_list_AS05:0 "Чужие солнца 5"
+ name_list_AS05_desc:0 " "
+
+ name_list_AS06:0 "Чужие солнца 6"
+ name_list_AS06_desc:0 " "
+
+ name_list_AS07:0 "Чужие солнца 7"
+ name_list_AS07_desc:0 " "
+
+ name_list_AS08:0 "Чужие солнца 8"
+ name_list_AS08_desc:0 " "
+
+ name_list_AS09:0 "Чужие солнца 9"
+ name_list_AS09_desc:0 " "
+
+ name_list_AS10:0 "Чужие солнца 10"
+ name_list_AS10_desc:0 " "
+
+ name_list_AS11:0 "Чужие солнца 11"
+ name_list_AS11_desc:0 " "
+
+ name_list_AS12:0 "Чужие солнца 12"
+ name_list_AS12_desc:0 " "
+
+ name_list_AS13:0 "Чужие солнца 13"
+ name_list_AS13_desc:0 " "
+
+ name_list_AS14:0 "Чужие солнца 14"
+ name_list_AS14_desc:0 " "
+
+ name_list_AS15:0 "Чужие солнца 15"
+ name_list_AS15_desc:0 " "

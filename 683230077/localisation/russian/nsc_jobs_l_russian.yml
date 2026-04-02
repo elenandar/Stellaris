@@ -1,0 +1,25 @@
+l_russian:
+
+##################################################################################################################################################################################################################
+### JOBS ###
+############
+
+job_diagnostician: "Диагност"
+job_diagnostician_plural: "Диагносты"
+job_diagnostician_desc: "Эти специализированные работники Галактической больницы являются экспертами в производстве роботов или увеличении воспроизводства органической жизни"
+mod_job_diagnostician_add: "Рабочие места: $job_diagnostician$"
+
+## Hive Empire Swap
+job_diagnostician_hive: "Диагност"
+job_diagnostician_hive_plural: "Диагносты"
+job_diagnostician_hive_desc: "Эти специализированные работники Галактической больницы являются экспертами в производстве роботов или увеличении воспроизводства органической жизни"
+mod_job_diagnostician_hive_add: "Рабочие места: $job_diagnostician$"
+
+## Machine Swap
+job_diagnostician_machine: "Диагност"
+job_diagnostician_machine_plural: "Диагносты"
+job_diagnostician_machine_desc: "Эти специализированные работники Галактической больницы являются экспертами в производстве роботов или увеличении воспроизводства органической жизни"
+mod_job_diagnostician_machine_add: "Рабочие места: $job_diagnostician$"
+
+diagnostician_hive: "$job_diagnostician$"
+diagnostician_machine: "$job_diagnostician$"

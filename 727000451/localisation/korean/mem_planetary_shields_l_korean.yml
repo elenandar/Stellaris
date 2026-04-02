@@ -1,0 +1,39 @@
+﻿l_korean:
+ #################################################
+ # Text by Malthus                               #
+ #################################################
+ # Planetary Shields
+
+ # That first building text is copied from the original game localisation
+ # Standard Shield Generator
+ building_mem_planetary_shield_generator:0 "Planetary Shield Generator"
+ building_mem_planetary_shield_generator_desc:0 "$tech_planetary_shield_generator_desc$"
+
+ # Heavy Shield Generator
+ building_mem_planetary_shield_generator_heavy:0 "Planetary Barrier Shield Generator"
+ building_mem_planetary_shield_generator_heavy_desc:0 "This is an advanced planetary shield generator derived from our studies of ancient shield worlds."
+
+ # Orila Shield Generator
+ building_mem_planetary_shield_generator_orila:0 "Planetary Precursor Shield Generator"
+ building_mem_planetary_shield_generator_orila_desc:0 "An ancient and highly advanced planetary shield generator with an incorporated energy source. Its technology may be thousands of years ahead of our own...\n\nWe may not be able to replicate this technology, but our engineers should be able to §Ydisassemble§! it here and then §Yreassamble§! it on another planet of our choosing."
+
+ # Heavy Shield Generator Tech 
+ mem_tech_planetary_shield_generator_heavy:0 "Advanced Barrier Shields"
+ mem_tech_planetary_shield_generator_heavy_desc:0 "Based on our own field manipulation research as well as our previous studies of precursor shield technology, a group of our scientists has put forward a promising design concept for an upgraded version of our own planetary shield generators."
+
+ # Orila Shield Generator Tech
+ mem_tech_planetary_shield_generator_orila:0 "Precursor Shield Maintenance"
+ mem_tech_planetary_shield_generator_orila_desc:0 "The technology behind this shield generator is far beyond our capabilities to recreate. That said, with our rudimentary understanding of it we will be able to disassemble and reassemble it whereever we see fit."
+
+ # Planet Modifiers
+ mem_planetary_precursor_shield:0 "Degraded Planetary Precursor Shield"
+ mem_planetary_precursor_shield_desc:0 "This world is protected by an ancient precursor shield. We have located the degraded generator infrastructure and could attempt to fully restore it here or relocate it to another of our colonies."
+ mem_planetary_precursor_shield_storms:0 "$mem_planetary_precursor_shield$"
+ mem_planetary_precursor_shield_storms_desc:0 "$mem_planetary_precursor_shield_desc$"
+
+ # Decision
+ decision_mem_planetary_precursor_shield_restoration:0 "Restore Precursor Shield Generator"
+ decision_mem_planetary_precursor_shield_restoration_desc:0 "We will restore the degraded generator infrastructure and receive one building kit to be reassembled wherever we so choose."
+
+ mem_planetary_shields.15.name:0 "Restoration Complete"
+ mem_planetary_shields.15.desc:0 "Work on the degraded Precursor Shield Generator on [root.GetName] has been completed. We will now be able to reassemble it whereever we choose."

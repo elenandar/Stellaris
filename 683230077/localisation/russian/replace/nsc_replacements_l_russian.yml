@@ -1,0 +1,29 @@
+l_russian:
+
+
+###################################################
+############ REPLACED KEYS ########################
+###################################################
+
+CORVETTE_MID_S2PD1: "Дозорное ядро"
+CORVETTE_MID_S3: "Ядро перехватчика"
+CORVETTE_MID_PD3: "Ядро точного наведения"
+
+CRISIS_CORVETTE_MID_S3: "Ядро перехватчика"
+
+DESTROYER_BOW_L1: "Артиллерийский нос"
+
+military_station_large: "Оборонительная крепость"
+
+
+eternal_vigilance_full_spending: "Полное финансирование — оборонительные платформы"
+eternal_vigilance_full_spending_name: "$eternal_vigilance_full_spending$"
+eternal_vigilance_full_spending_desc: "Каждая звёздная база должна быть надёжно защищена. Не жалейте средств.\nАвтоматически строит §Yоборонительные платформы§! вокруг каждой §Yзвёздной базы§!"
+eternal_vigilance_half_spending: "Частичное финансирование — оборонительные платформы"
+eternal_vigilance_half_spending_name: "$eternal_vigilance_half_spending$"
+eternal_vigilance_half_spending_desc: "Лишь наши сильнейшие опорные пункты требуют такой поддержки.\nАвтоматически строит §Yоборонительные платформы§! вокруг §Yзвёздных баз-бастионов§!"
+
+sm_naval_logistics_office_desc:1 "Даже минимальный, но всё же существующий бюрократический аппарат повышает теоретическую вместимость якорных стоянок звёздной базы.\n"
+sm_naval_logistics_office_desc_modifier:2 "Якорные стоянки: §G+3§! §Yвместимости флота§!\nФлотские доки: §G+50§! §Yвместимости флота§!"
+
+requires_anchorage: "Требуется §Yякорная стоянка§! или §Yфлотский док§!."

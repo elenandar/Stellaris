@@ -1,0 +1,22 @@
+l_russian:
+
+##################################################################################################################################################################################################################
+### NAME LISTS ###
+##################
+
+NSC_NAME_STEVE:0 "Стив"
+
+name_list_1-NSC-Arthopoid: "NSC2 Членистоногие"
+name_list_1-NSC-Avian: "NSC2 Птицы"
+name_list_1-NSC-Fungoid: "NSC2 Грибоиды"
+name_list_1-NSC-Hive: "NSC2 Рой"
+name_list_1-NSC-Human: "NSC2 Люди"
+name_list_1-NSC-Humanoid: "NSC2 Гуманоиды"
+name_list_1-NSC-Lithoid: "NSC2 Литоиды"
+name_list_1-NSC-Machine: "NSC2 Машины"
+name_list_1-NSC-Mammalian: "NSC2 Млекопитающие"
+name_list_1-NSC-Molluscoid: "NSC2 Моллюскоиды"
+name_list_1-NSC-Necroid: "NSC2 Некроиды"
+name_list_1-NSC-Plantoid: "NSC2 Плюнтоиды"
+name_list_1-NSC-Reptilian: "NSC2 Рептилоиды"
+name_list_1-NSC-Steve: "NSC2 Стив"
