@@ -1,4 +1,4 @@
 ﻿l_russian:
   
-  giga_debug.1.title:99 "Total Bulk Matter"
-  giga_debug.1.desc:99 "There is a total of §Y[ROOT.total_galaxy_bm]§! in the galaxy with an average of §Y[ROOT.average_galaxy_bm]§! per system."
+  giga_debug.1.title:99 "Общее количество насыпного материала"
+  giga_debug.1.desc:99 "В галактике находится §Y[ROOT.total_galaxy_bm]§! насыпного материала со средним значением §Y[ROOT.average_galaxy_bm]§! на систему."
