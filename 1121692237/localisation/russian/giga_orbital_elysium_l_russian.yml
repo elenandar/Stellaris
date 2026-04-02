@@ -3,178 +3,178 @@
   ### Orbital Elysium #########################################################################################################################
   #############################################################################################################################################
   
-  mod_giga_elysium_host_stability_add:99 "Elysium Host Planet Stability"
-  mod_giga_elysium_host_jobs_produces_mult:99 "Elysium Host Planet Job Output"
+  mod_giga_elysium_host_stability_add:0 "Стабильность планеты-хоста Элизиума"
+  mod_giga_elysium_host_jobs_produces_mult:0 "Производительность должностей планеты-хоста Элизиума"
   
-  giga_elysium_host_planet:99 "$name_orb_elysium$ Host Planet"
-  giga_elysium_host_planet_desc:99 "Controlled from on high, governance of this planet has largely been left in the hands of planetside authorities while their superiors observe from the station in orbit."
+  giga_elysium_host_planet:0 "Планета-хост $name_orb_elysium$"
+  giga_elysium_host_planet_desc:0 "Управляемая сверху, эта планета в значительной мере оставлена в руках планетарных властей, тогда как их начальство наблюдает со станции на орбите."
   
-  giga_elysium_origin_fix:99 "$name_orb_elysium$ Origin Homeworld Fix"
-  giga_elysium_origin_fix_desc:99 "If you can see this modifier, something went wrong!"
+  giga_elysium_origin_fix:0 "Исправление родного мира начала $name_orb_elysium$"
+  giga_elysium_origin_fix_desc:0 "Если вы видите этот модификатор, что-то пошло не так!"
   
-  giga_elysium_origin_build_speed:99 "$name_orb_elysium$ Origin Assembly"
-  giga_elysium_origin_build_speed_desc:99 "If you can read this modifier, something went wrong!"
+  giga_elysium_origin_build_speed:0 "Сборка начала $name_orb_elysium$"
+  giga_elysium_origin_build_speed_desc:0 "Если вы можете прочитать этот модификатор, что-то пошло не так!"
   
-  giga_elysium_no_host:99 "Insufficient Planetary Support"
-  giga_elysium_no_host_desc:99 "Without the support of infrastructure on the planet below, the inhabitants of this station are struggling."
+  giga_elysium_no_host:0 "Недостаточная планетарная поддержка"
+  giga_elysium_no_host_desc:0 "Без поддержки инфраструктуры на планете внизу жители этой станции испытывают трудности."
   
-  giga_origin_no_elysium:99 "No Orbital Oversight"
-  giga_origin_no_elysium_desc:99 "Without an $name_orb_elysium$ to guide them from on high, the inhabitants of this world are disordered and inefficient."
+  giga_origin_no_elysium:0 "Отсутствие орбитального надзора"
+  giga_origin_no_elysium_desc:0 "Без $name_orb_elysium$, чтобы направлять их свыше, жители этого мира дезорганизованы и неэффективны."
   
-  giga_dismantle_elysium:99 "Decommission $name_orb_elysium$"
-  giga_dismantle_elysium_desc:99 "This station, and the stifling control it provides, no longer suit our needs."
-  giga_dismantle_elysium_tooltip:99 "The $name_orb_elysium$ will be §Rdestroyed§!."
+  giga_dismantle_elysium:0 "Демонтировать $name_orb_elysium$"
+  giga_dismantle_elysium_desc:0 "Эта станция и удушающий контроль, который она обеспечивает, больше не соответствуют нашим потребностям."
+  giga_dismantle_elysium_tooltip:0 "$name_orb_elysium$ будет §Rуничтожен§!."
   
-  d_giga_elysium_buildings:99 "Planetary Support Infrastructure"
-  d_giga_elysium_buildings_desc:99 "§WThe $name_orb_elysium$ gains a £building£ §YBuilding Slot§! for every one which would be unlocked on the host world.§!\n§W--------------§!\nFar from independent of its host world, the Elysium benefits greatly from sufficient supporting infrastructure."
+  d_giga_elysium_buildings:0 "Инфраструктура планетарной поддержки"
+  d_giga_elysium_buildings_desc:0 "§W$name_orb_elysium$ получает £building£ §YСлот здания§! за каждый открытый на планете-хосте.§!\n§W--------------§!\nДалеко не независимый от своей планеты-хоста, Элизиум значительно выигрывает от достаточной поддерживающей инфраструктуры."
   
-  d_giga_elysium_origin_industry:99 "Abandoned Industrial Zone"
-  d_giga_elysium_origin_industry_desc:99 "Relics of a former period of industrial development, these outdated manufacturing facilities now only stand in the way of progress."
-  d_giga_elysium_origin_industry_effect:99 "Replaces some £job_foundry£ §Y[owner.GetAlloyProducer]§! and [owner.GetArtisanIcon] §Y[owner.GetArtisan]§! Jobs with §Y[owner.GetClerkOrMaintenanceDrone]§! Jobs when the Planet has an §YIndustrial§!, §YFoundry§!, or §YFactory§! Planet Designation."
+  d_giga_elysium_origin_industry:0 "Заброшенная промышленная зона"
+  d_giga_elysium_origin_industry_desc:0 "Пережитки бывшего периода промышленного развития, эти устаревшие производственные объекты теперь лишь стоят на пути прогресса."
+  d_giga_elysium_origin_industry_effect:0 "Заменяет некоторые £job_foundry£ §Y[owner.GetAlloyProducer]§! и [owner.GetArtisanIcon] §Y[owner.GetArtisan]§! Должности на §Y[owner.GetClerkOrMaintenanceDrone]§! Должности, когда планета имеет §YПромышленное§!, §YЛитейное§! или §YЗаводское§! назначение."
   
   
   # blocker events
   
-  giga_elysium.002.name:99 "Unregulated Industrial Expansion on [From.GetName]"
-  giga_elysium.002.desc:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to rising unemployment, there has been a rise in unauthorised industrial activity. This §Y$d_giga_elysium_cottage_industry$§! promises employment to those seeking jobs, carries with it the sinister undertones of organised crime.\n\nIts presence on is [From.GetName] likely to have a §Ynegative effect on planetary stability§!, and may require state intervention."
-  giga_elysium.002.desc.hive:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to prolonged idling of drones, a local management cluster on the surface has ordered the construction of a §Y$d_giga_elysium_cottage_industry$§!.\n\nWhile this newly developed region will indeed provide additional employment, its semi-autonomous nature is giving rise to deviant activity, and it will likely have a §Ynegative effect on planetary stability§! in the long run. Excision may become necessary."
-  giga_elysium.002.desc.machine:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to prolonged idling of drones, a semi-autonomous structural planning submind on the surface has ordered the construction of a §Y$d_giga_elysium_cottage_industry$§!.\n\nWhile this newly developed region will indeed provide additional employment, the quality of integration with centrally planned systems is poor, and it will likely have a §Ynegative effect on planetary stability§! in the long run. Excision may become necessary."
+  giga_elysium.002.name:0 "Неконтролируемое промышленное расширение на [From.GetName]"
+  giga_elysium.002.desc:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на рост безработицы наблюдается рост несанкционированной промышленной деятельности. Эта §Y$d_giga_elysium_cottage_industry$§! обещает работу ищущим её, но несёт в себе зловещие признаки организованной преступности.\n\nЕё присутствие на [From.GetName], скорее всего, окажет §Yнегативное влияние на планетарную стабильность§! и может потребовать государственного вмешательства."
+  giga_elysium.002.desc.hive:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на длительный простой дронов местный управляющий кластер на поверхности приказал построить §Y$d_giga_elysium_cottage_industry$§!.\n\nХотя этот новый регион и обеспечит дополнительную занятость, его полуавтономный характер порождает девиантную деятельность, и в долгосрочной перспективе он, скорее всего, окажет §Yнегативное влияние на планетарную стабильность§!. Может потребоваться удаление."
+  giga_elysium.002.desc.machine:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на длительный простой дронов полуавтономный структурный планировочный подразум на поверхности приказал построить §Y$d_giga_elysium_cottage_industry$§!.\n\nХотя этот новый регион и обеспечит дополнительную занятость, качество интеграции с централизованно планируемыми системами оставляет желать лучшего, и в долгосрочной перспективе он, скорее всего, окажет §Yнегативное влияние на планетарную стабильность§!. Может потребоваться удаление."
   
-  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY_TITLE:99 "Unregulated Industrial Expansion"
-  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY:99 "High unemployment on §Y$PLANET$§! in the §Y$SYSTEM$§! system has led to the construction of a §Y$d_giga_elysium_cottage_industry$§! to provide jobs."
+  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY_TITLE:0 "Неконтролируемое промышленное расширение"
+  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY:0 "Высокая безработица на §Y$PLANET$§! в системе §Y$SYSTEM$§! привела к строительству §Y$d_giga_elysium_cottage_industry$§! для обеспечения работой."
   
-  d_giga_elysium_cottage_industry:99 "Makeshift Industrial Zone"
-  d_giga_elysium_cottage_industry_desc:99 "These cottage industries were built by the idle populace to provide employment."
+  d_giga_elysium_cottage_industry:0 "Стихийная промышленная зона"
+  d_giga_elysium_cottage_industry_desc:0 "Эти кустарные производства были построены праздным населением для обеспечения занятости."
   
-  giga_elysium.004.name:99 "Unregulated Urban Expansion on [From.GetName]"
-  giga_elysium.004.desc:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to rising homelessness, a group of disenfranchised colonists has built a §Y$d_giga_elysium_slums$§! on the outskirts of a major settlement.\n\nHard to govern and harder to patrol, it is likely to be a haven for organised crime. As such, its presence on is [From.GetName] likely to have a §Ynegative effect on planetary stability§!, and may require intervention."
-  giga_elysium.004.desc.hive:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to a rising level of homelessness, a group of drones has fallen back on their survival instincts and built a §Y$d_giga_elysium_slums$§! for shelter.\n\nWhile this newly carved structure will indeed provide additional housing space, the maze-like warren is already becoming a haven for deviant elements of the planetary population, and will likely have a §Ynegative effect on planetary stability§! going forward. Demolition may become necessary."
-  giga_elysium.004.desc.machine:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to a critical shortage of drone staging areas, a semi-autonomous structural planning submind on the surface has ordered the construction of a §Y$d_giga_elysium_slums$§!.\n\nWhile this newly developed region will indeed provide shelter for the homeless drones, its warren-like structure is already becoming a haven for corrupt elements of our network, and will likely have a §Ynegative effect on planetary stability§! going forward. Demolition may become necessary."
+  giga_elysium.004.name:0 "Неконтролируемое городское расширение на [From.GetName]"
+  giga_elysium.004.desc:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на рост бездомности группа обездоленных колонистов построила §Y$d_giga_elysium_slums$§! на окраине крупного поселения.\n\nТрудно управляемые и ещё труднее патрулируемые, они, вероятно, станут прибежищем для организованной преступности. Таким образом, их присутствие на [From.GetName], скорее всего, окажет §Yнегативное влияние на планетарную стабильность§! и может потребовать вмешательства."
+  giga_elysium.004.desc.hive:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на растущий уровень бездомности группа дронов, опираясь на инстинкт выживания, построила §Y$d_giga_elysium_slums$§! для укрытия.\n\nХотя этот новый район и обеспечит дополнительное жилое пространство, лабиринтоподобные трущобы уже становятся прибежищем для девиантных элементов планетарного населения и в долгосрочной перспективе, скорее всего, окажут §Yнегативное влияние на планетарную стабильность§!. Может потребоваться снос."
+  giga_elysium.004.desc.machine:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на критическую нехватку мест базирования дронов полуавтономный структурный планировочный подразум на поверхности приказал построить §Y$d_giga_elysium_slums$§!.\n\nХотя этот новый район и обеспечит жильё для бездомных дронов, его лабиринтообразная структура уже становится прибежищем для коррумпированных элементов нашей сети и в долгосрочной перспективе, скорее всего, окажет §Yнегативное влияние на планетарную стабильность§!. Может потребоваться снос."
   
-  MESSAGE_GIGA_ELYSIUM_SLUMS_TITLE:99 "Unregulated Urban Expansion"
-  MESSAGE_GIGA_ELYSIUM_SLUMS:99 "High homelessness on §Y$PLANET$§! in the §Y$SYSTEM$§! system has led to the construction of a §Y$d_giga_elysium_slums$§! to provide shelter."
+  MESSAGE_GIGA_ELYSIUM_SLUMS_TITLE:0 "Неконтролируемое городское расширение"
+  MESSAGE_GIGA_ELYSIUM_SLUMS:0 "Высокая бездомность на §Y$PLANET$§! в системе §Y$SYSTEM$§! привела к строительству §Y$d_giga_elysium_slums$§! для предоставления жилья."
   
-  d_giga_elysium_slums:99 "Makeshift Housing Zone"
-  d_giga_elysium_slums_desc:99 "Poorly planned and rife with deviant activity, these slums provide much needed living space."
+  d_giga_elysium_slums:0 "Стихийная жилая зона"
+  d_giga_elysium_slums_desc:0 "Плохо спланированные и пронизанные девиантной деятельностью, эти трущобы обеспечивают столь необходимое жильё."
   
-  giga_elysium.005.name:99 "Livestock Relocated on [From.GetName]"
-  giga_elysium.005.desc:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to rising homelessness among our §Y$LIVESTOCK$ Pops§!, local authorities have ordered the construction of a §Y$d_giga_elysium_livestock_pens$§!.\n\nLess controlled than our standard facilities, the inhabitants will have a less structured life and will likely have a §Ynegative effect on planetary stability§! going forward. It may become necessary to replace the facility entirely."
-  giga_elysium.005.desc.hive:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to rising homelessness among our §Y$LIVESTOCK$ Pops§!, a local management cluster on the surface has ordered the construction of a §Y$d_giga_elysium_livestock_pens$§!.\n\nLess controlled than our standard facilities, the inhabitants will have a less structured life and will likely have a §Ynegative effect on planetary stability§! going forward. It may become necessary to replace the facility entirely."
-  giga_elysium.005.desc.machine:99 "Our control center on the Elysium station above §Y[From.GetName]§! reports that in response to a critical shortage of storage areas for our §Y$slavery_matrix$ Pops§!, a semi-autonomous structural planning submind on the surface has ordered the construction of a §Y$d_giga_elysium_livestock_pens$§!.\n\nLess controlled than our standard facilities, it may contain unknown design flaws and will likely have a §Ynegative effect on planetary stability§! going forward. It may become necessary to replace the facility entirely."
+  giga_elysium.005.name:0 "Скот перемещён на [From.GetName]"
+  giga_elysium.005.desc:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на рост бездомности среди наших §Y$LIVESTOCK$ Поп§! местные власти приказали построить §Y$d_giga_elysium_livestock_pens$§!.\n\nМенее контролируемые, чем наши стандартные объекты, жители получат менее структурированную жизнь и в долгосрочной перспективе, скорее всего, окажут §Yнегативное влияние на планетарную стабильность§!. Может потребоваться полная замена объекта."
+  giga_elysium.005.desc.hive:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на рост бездомности среди наших §Y$LIVESTOCK$ Поп§! местный управляющий кластер на поверхности приказал построить §Y$d_giga_elysium_livestock_pens$§!.\n\nМенее контролируемые, чем наши стандартные объекты, жители получат менее структурированную жизнь и в долгосрочной перспективе, скорее всего, окажут §Yнегативное влияние на планетарную стабильность§!. Может потребоваться полная замена объекта."
+  giga_elysium.005.desc.machine:0 "Наш командный центр на орбитальной станции Элизиум над §Y[From.GetName]§! сообщает, что в ответ на критическую нехватку мест хранения для наших §Y$slavery_matrix$ Поп§! полуавтономный структурный планировочный подразум на поверхности приказал построить §Y$d_giga_elysium_livestock_pens$§!.\n\nМенее контролируемые, чем наши стандартные объекты, они могут содержать неизвестные конструктивные недостатки и в долгосрочной перспективе, скорее всего, окажут §Yнегативное влияние на планетарную стабильность§!. Может потребоваться полная замена объекта."
   
-  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS_TITLE:99 "Unregulated Livestock Relocation"
-  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS:99 "Homeless livestock £pop£ §YPops§! on §Y$PLANET$§! in the §Y$SYSTEM$§! system have been moved into a §Y$d_giga_elysium_livestock_pens$§! to provide shelter."
+  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS_TITLE:0 "Неконтролируемое перемещение скота"
+  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS:0 "Бездомные £pop£ §YПопы§! скота на §Y$PLANET$§! в системе §Y$SYSTEM$§! были помещены в §Y$d_giga_elysium_livestock_pens$§! для предоставления жилья."
   
-  d_giga_elysium_livestock_pens:99 "Makeshift Livestock Enclosure"
-  d_giga_elysium_livestock_pens_desc:99 "Less regulated than our standard facilities, this enclosure affords our \"guests\" additional freedoms. Perhaps too many."
+  d_giga_elysium_livestock_pens:0 "Стихийный загон для скота"
+  d_giga_elysium_livestock_pens_desc:0 "Менее регламентированный, чем наши стандартные объекты, этот загон предоставляет нашим «гостям» дополнительные свободы. Пожалуй, слишком много."
   
-  giga_elysium.006.name:99 "[From.GetName] Decommissioned"
-  giga_elysium.006.desc:99 "The Elysium station above [fromfrom.GetName] has been successfully dismantled, restoring control to the surface administration.\n\nAll remaining residents have been relocated to the planet's surface, and the remains of the station have been deorbited."
-  giga_elysium.006.desc.egal:99 "The Elysium station above [fromfrom.GetName] has been successfully dismantled, ending the oppressive reign of the elites who fled there.\n\nAll remaining residents have been relocated to the planet's surface, and the remains of the station have been deorbited."
-  giga_elysium.006.desc.gestalt:99 "The Elysium station above [fromfrom.GetName] has been successfully dismantled, transferring control to surface installations.\n\nAll remaining drones have been relocated to the planet's surface, and the remains of the station have been deorbited."
+  giga_elysium.006.name:0 "[From.GetName] выведен из эксплуатации"
+  giga_elysium.006.desc:0 "Орбитальная станция Элизиум над [fromfrom.GetName] успешно демонтирована, что восстановило контроль над поверхностной администрацией.\n\nВсе оставшиеся жители были переселены на поверхность планеты, а остатки станции были сведены с орбиты."
+  giga_elysium.006.desc.egal:0 "Орбитальная станция Элизиум над [fromfrom.GetName] успешно демонтирована, положив конец угнетательскому господству элит, бежавших туда.\n\nВсе оставшиеся жители были переселены на поверхность планеты, а остатки станции были сведены с орбиты."
+  giga_elysium.006.desc.gestalt:0 "Орбитальная станция Элизиум над [fromfrom.GetName] успешно демонтирована, передав контроль наземным установкам.\n\nВсе оставшиеся дроны были переселены на поверхность планеты, а остатки станции были сведены с орбиты."
   
-  giga_elysium.006.good:99 "Good riddance."
+  giga_elysium.006.good:0 "Скатертью дорога."
   
   #########################################
   ### Elysium districts ###################
   #########################################
   
-  district_giga_elysium_housing:99 "Habitation District"
-  district_giga_elysium_housing_plural:99 "Habitation Districts"
-  district_giga_elysium_housing_desc:99 "Spacious housing set among simulated countryside, with direct access to high speed communications infrastructure."
+  district_giga_elysium_housing:0 "Жилой район"
+  district_giga_elysium_housing_plural:0 "Жилые районы"
+  district_giga_elysium_housing_desc:0 "Просторное жильё в окружении имитированной сельской местности с прямым доступом к высокоскоростной коммуникационной инфраструктуре."
   
-  district_giga_elysium_control:99 "Planetary Control Center"
-  district_giga_elysium_control_plural:99 "Planetary Control Centers"
-  district_giga_elysium_control_desc:99 "The nerve center for planetside operations, where overseers ensure compliance from the population below."
+  district_giga_elysium_control:0 "Планетарный центр управления"
+  district_giga_elysium_control_plural:0 "Планетарные центры управления"
+  district_giga_elysium_control_desc:0 "Нервный центр для планетарных операций, где смотрители обеспечивают соблюдение требований населением."
   
-  district_giga_elysium_admin:99 "Administrative District"
-  district_giga_elysium_admin_plural:99 "Administrative Districts"
-  district_giga_elysium_admin_desc:99 "A sprawling administrative installation, managing communications for the station and its host planet."
+  district_giga_elysium_admin:0 "Административный район"
+  district_giga_elysium_admin_plural:0 "Административные районы"
+  district_giga_elysium_admin_desc:0 "Масштабный административный комплекс, управляющий коммуникациями для станции и её планеты-хоста."
   
-  district_giga_elysium_science:99 "Research District"
-  district_giga_elysium_science_plural:99 "Research Districts"
-  district_giga_elysium_science_desc:99 "High-tech laboratories where our brightest minds can work without distraction."
+  district_giga_elysium_science:0 "Исследовательский район"
+  district_giga_elysium_science_plural:0 "Исследовательские районы"
+  district_giga_elysium_science_desc:0 "Высокотехнологичные лаборатории, где наши лучшие умы могут работать без отвлечений."
   
-  district_giga_elysium_entertainment:99 "Entertainment District"
-  district_giga_elysium_entertainment_plural:99 "Entertainment Districts"
-  district_giga_elysium_entertainment_desc:99 "A center of broadcast media production, able to produce an endless stream of content to satisfy the masses."
+  district_giga_elysium_entertainment:0 "Развлекательный район"
+  district_giga_elysium_entertainment_plural:0 "Развлекательные районы"
+  district_giga_elysium_entertainment_desc:0 "Центр производства вещательных СМИ, способный производить бесконечный поток контента для удовлетворения масс."
   
   #########################################
   ### Elysium buildings ###################
   #########################################
   
-  building_giga_elysium_host_capital:99 "Elysium Planetary Control Center"
-  building_giga_elysium_host_capital_plural:99 "Elysium Planetary Control Center"
-  building_giga_elysium_host_capital_desc:99 "The seat of local bureaucracy, managing the planet on behalf of their superiors above."
+  building_giga_elysium_host_capital:0 "Планетарный центр управления Элизиума"
+  building_giga_elysium_host_capital_plural:0 "Планетарный центр управления Элизиума"
+  building_giga_elysium_host_capital_desc:0 "Место сосредоточения местной бюрократии, управляющей планетой от имени вышестоящих."
   
-  building_giga_elysium_host_major_capital:99 "Elysium Planetary Control Complex"
-  building_giga_elysium_host_major_capital_plural:99 "Elysium Planetary Control Complexes"
-  building_giga_elysium_host_major_capital_desc:99 "A major administrative center, mediating between the local populace and their superiors in orbit."
+  building_giga_elysium_host_major_capital:0 "Планетарный командный комплекс Элизиума"
+  building_giga_elysium_host_major_capital_plural:0 "Планетарные командные комплексы Элизиума"
+  building_giga_elysium_host_major_capital_desc:0 "Крупный административный центр, выступающий посредником между местным населением и их начальством на орбите."
   
-  giga_elysium_dystopian_stability_desc:99 "\n§H$civic_dystopian_society$:§! Additionally receives §Y50%§! of the £stability£ §YStability§! of the orbiting Elysium"
+  giga_elysium_dystopian_stability_desc:0 "\n§H$civic_dystopian_society$:§! Дополнительно получает §Y50%§! £stability£ §YСтабильности§! от орбитального Элизиума"
   
-  building_giga_elysium_host_hive_capital:99 "Elysium Planetary Synapse Node"
-  building_giga_elysium_host_hive_capital_plural:99 "Elysium Planetary Synapse Nodes"
-  building_giga_elysium_host_hive_capital_desc:99 "The primary synaptic relay through which the Hive Mind manages planetside functions."
+  building_giga_elysium_host_hive_capital:0 "Планетарный синаптический узел Элизиума"
+  building_giga_elysium_host_hive_capital_plural:0 "Планетарные синаптические узлы Элизиума"
+  building_giga_elysium_host_hive_capital_desc:0 "Первичное синаптическое реле, через которое Улей управляет планетарными функциями."
   
-  building_giga_elysium_host_hive_major_capital:99 "Elysium Planetary Synapse Cluster"
-  building_giga_elysium_host_hive_major_capital_plural:99 "Elysium Planetary Synapse Clusters"
-  building_giga_elysium_host_hive_major_capital_desc:99 "A huge synaptic relay though which the Hive Mind focuses planetary development and planning."
+  building_giga_elysium_host_hive_major_capital:0 "Планетарный синаптический кластер Элизиума"
+  building_giga_elysium_host_hive_major_capital_plural:0 "Планетарные синаптические кластеры Элизиума"
+  building_giga_elysium_host_hive_major_capital_desc:0 "Мощное синаптическое реле, через которое Улей направляет планетарное развитие и планирование."
   
-  building_giga_elysium_host_machine_capital:99 "Elysium Planetary Relay Node"
-  building_giga_elysium_host_machine_capital_plural:99 "Elysium Planetary Relay Nodes"
-  building_giga_elysium_host_machine_capital_desc:99 "A signal relay hub serving instructions from the station far above."
+  building_giga_elysium_host_machine_capital:0 "Планетарный ретрансляционный узел Элизиума"
+  building_giga_elysium_host_machine_capital_plural:0 "Планетарные ретрансляционные узлы Элизиума"
+  building_giga_elysium_host_machine_capital_desc:0 "Ретрансляционный узел, передающий инструкции со станции высоко над нами."
   
-  building_giga_elysium_host_machine_major_capital:99 "Elysium Planetary Relay Nexus"
-  building_giga_elysium_host_machine_major_capital_plural:99 "Elysium Planetary Relay Nexuses"
-  building_giga_elysium_host_machine_major_capital_desc:99 "A powerful administrative hub and relay center, processing instructions sent from orbit."
+  building_giga_elysium_host_machine_major_capital:0 "Планетарный ретрансляционный нексус Элизиума"
+  building_giga_elysium_host_machine_major_capital_plural:0 "Планетарные ретрансляционные нексусы Элизиума"
+  building_giga_elysium_host_machine_major_capital_desc:0 "Мощный административный узел и ретрансляционный центр, обрабатывающий инструкции, поступающие с орбиты."
   
   
-  building_giga_elysium_host_jobs:99 "Ministry of Employment"
-  building_giga_elysium_host_jobs_plural:99 "Ministries of Employment"
-  building_giga_elysium_host_jobs_desc:99 "A pervasive government authority from which jobs are assigned and quotas issued."
-  building_giga_elysium_host_jobs_effect:99 "Provides §Y$@giga_elysium_jobs_per_100|*0$§! £job£ Jobs for every §Y100§! £pop£ Pops on the planet, suited to our §YEmpire Type§! and the current §YColony Designation§!."
-  building_giga_elysium_host_jobs_amenities_effect:99 "Provides §Y$@giga_elysium_jobs_per_100|*0$§! £job£ Jobs for every §Y100§! £pop£ Pops on the planet, suited to our §YEmpire Type§! and the current §YColony Designation§!, and additional £amenities£ §YAmenities§! per £job_clerk£ §Y$job_clerk$§! Job"
+  building_giga_elysium_host_jobs:0 "Министерство занятости"
+  building_giga_elysium_host_jobs_plural:0 "Министерства занятости"
+  building_giga_elysium_host_jobs_desc:0 "Всеохватывающий государственный орган, через который назначаются должности и устанавливаются квоты."
+  building_giga_elysium_host_jobs_effect:0 "Предоставляет §Y$@giga_elysium_jobs_per_100|*0$§! £job£ Должности на каждые §Y100§! £pop£ Поп на планете, подходящие нашему §YТипу империи§! и текущему §YНазначению колонии§!."
+  building_giga_elysium_host_jobs_amenities_effect:0 "Предоставляет §Y$@giga_elysium_jobs_per_100|*0$§! £job£ Должности на каждые §Y100§! £pop£ Поп на планете, подходящие нашему §YТипу империи§! и текущему §YНазначению колонии§!, а также дополнительные £amenities£ §YУдобства§! на £job_clerk£ §Y$job_clerk$§! Должность"
   
-  building_giga_elysium_host_hive_jobs:99 "Drone Assignment Center"
-  building_giga_elysium_host_hive_jobs_plural:99 "Drone Assignment Centers"
-  building_giga_elysium_host_hive_jobs_desc:99 "A facility housing a semi-autonomous neural cluster, tasked with maintaining drone productivity across the planet."
+  building_giga_elysium_host_hive_jobs:0 "Центр назначения дронов"
+  building_giga_elysium_host_hive_jobs_plural:0 "Центры назначения дронов"
+  building_giga_elysium_host_hive_jobs_desc:0 "Объект, в котором размещён полуавтономный нейронный кластер, задачей которого является поддержание производительности дронов на всей планете."
   
-  building_giga_elysium_host_machine_jobs:99 "Task Assignment Hub"
-  building_giga_elysium_host_machine_jobs_plural:99 "Task Assignment Hubs"
-  building_giga_elysium_host_machine_jobs_desc:99 "A computational node which distributes tasks to idle drones across the planet."
+  building_giga_elysium_host_machine_jobs:0 "Узел назначения задач"
+  building_giga_elysium_host_machine_jobs_plural:0 "Узлы назначения задач"
+  building_giga_elysium_host_machine_jobs_desc:0 "Вычислительный узел, распределяющий задачи между простаивающими дронами по всей планете."
   
-  building_giga_elysium_host_booster:99 "Supplemental Industrial Sector"
-  building_giga_elysium_host_booster_plural:99 "Supplemental Industrial Sectors"
-  building_giga_elysium_host_booster_desc:99 "A sprawling industrial region built to augment planetary productivity."
-  building_giga_elysium_host_booster_effect:99 "Provides boosts to £job£ §YJob Productivity§! based on §YColony Designation§!, and exploits any £volatile_motes£ £exotic_gases£ £rare_crystals£ §YStrategic Resource§! deposits, providing extraction jobs"
+  building_giga_elysium_host_booster:0 "Дополнительный промышленный сектор"
+  building_giga_elysium_host_booster_plural:0 "Дополнительные промышленные секторы"
+  building_giga_elysium_host_booster_desc:0 "Масштабный промышленный регион, построенный для увеличения планетарной производительности."
+  building_giga_elysium_host_booster_effect:0 "Обеспечивает бонусы к £job£ §YПроизводительности должностей§! в зависимости от §YНазначения колонии§! и использует любые £volatile_motes£ £exotic_gases£ £rare_crystals£ §YСтратегические ресурсы§! из месторождений, обеспечивая должности по добыче"
   
-  building_giga_elysium_trash_heap:99 "Enormous Trash Heap"
-  building_giga_elysium_trash_heap_desc:99 "Immense piles of assorted debris, discarded by the inhabitants of the station above. Scavengers sift through the detritus, seeking discarded luxuries."
-  building_giga_elysium_trash_heap_effect:99 "Provides §Y$amenity$§! equal to §Y$@giga_elysium_trash_amenities|%0$§! of the §YAvailable $amenity$§! on the §Y$orbital_elysium$§!"
+  building_giga_elysium_trash_heap:0 "Огромная куча мусора"
+  building_giga_elysium_trash_heap_desc:0 "Огромные груды разнообразного мусора, выброшенного обитателями станции выше. Мародёры просеивают отходы в поисках выброшенных предметов роскоши."
+  building_giga_elysium_trash_heap_effect:0 "Предоставляет §Y$amenity$§! равное §Y$@giga_elysium_trash_amenities|%0$§! от §YДоступных $amenity$§! на §Y$orbital_elysium$§!"
   
   #########################################
   ### Elysium jobs ########################
   #########################################
   
-  job_giga_elysium_controller:99 "Elysian Overseer"
-  job_giga_elysium_controller_plural:99 "Elysian Overseers"
-  job_giga_elysium_controller_desc:99 "Those in power have a duty to maintain control over the unwashed masses."
-  job_giga_elysium_controller_effect_desc:99 "$job_giga_elysium_controller_swap_plural_with_icon$ turn £consumer_goods£ §Y$consumer_goods$§! into £stability£ §YStability§! for the station's host planet"
-  job_giga_elysium_controller_swap_plural_with_icon:99 "[giga_elysium_controller.GetIcon] [giga_elysium_controller.GetNamePlural]"
-  mod_job_giga_elysium_controller_add:99 "[giga_elysium_controller.GetName] Jobs"
-  mod_job_giga_elysium_controller_per_pop:99 "§G+1§! [giga_elysium_controller.GetName] Job per $VALUE$ Pops"
-  mod_job_giga_elysium_controller_per_pop_short:99 "\n§G+1§! £mod_job_giga_elysium_controller_add£ per $VALUE$ £pop£"
+  job_giga_elysium_controller:0 "Элизийский смотритель"
+  job_giga_elysium_controller_plural:0 "Элизийские смотрители"
+  job_giga_elysium_controller_desc:0 "Власть имущие обязаны поддерживать контроль над серой массой."
+  job_giga_elysium_controller_effect_desc:0 "$job_giga_elysium_controller_swap_plural_with_icon$ превращают £consumer_goods£ §Y$consumer_goods$§! в £stability£ §YСтабильность§! для планеты-хоста станции"
+  job_giga_elysium_controller_swap_plural_with_icon:0 "[giga_elysium_controller.GetIcon] [giga_elysium_controller.GetNamePlural]"
+  mod_job_giga_elysium_controller_add:0 "[giga_elysium_controller.GetName] Должности"
+  mod_job_giga_elysium_controller_per_pop:0 "§G+1§! Должность [giga_elysium_controller.GetName] на каждые $VALUE$ Поп"
+  mod_job_giga_elysium_controller_per_pop_short:0 "\n§G+1§! £mod_job_giga_elysium_controller_add£ на $VALUE$ £pop£"
   
-  job_giga_elysium_controller_drone:99 "Elysian Overseer Drone"
-  job_giga_elysium_controller_drone_plural:99 "Elysian Overseer Drones"
-  job_giga_elysium_controller_drone_desc:99 "These drones manage planetside operations from above, maintaining order over an otherwise potentially chaotic planet."
-  job_giga_elysium_controller_drone_effect_desc:99 "$job_giga_elysium_controller_drone_swap_plural_with_icon$ turn £energy£ §Y$energy$§! into £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! for the station's host planet"
-  job_giga_elysium_controller_drone_swap_plural_with_icon:99 "[giga_elysium_controller_drone.GetIcon] [giga_elysium_controller_drone.GetNamePlural]"
-  mod_job_giga_elysium_controller_drone_add:99 "[giga_elysium_controller_drone.GetName] Jobs"
-  mod_job_giga_elysium_controller_drone_per_pop:99 "§G+1§! [giga_elysium_controller_drone.GetName] Job per $VALUE$ Pops"
-  mod_job_giga_elysium_controller_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_elysium_controller_add£ per $VALUE$ £pop£"
+  job_giga_elysium_controller_drone:0 "Дрон-смотритель Элизиума"
+  job_giga_elysium_controller_drone_plural:0 "Дроны-смотрители Элизиума"
+  job_giga_elysium_controller_drone_desc:0 "Эти дроны управляют планетарными операциями сверху, поддерживая порядок на иначе потенциально хаотичной планете."
+  job_giga_elysium_controller_drone_effect_desc:0 "$job_giga_elysium_controller_drone_swap_plural_with_icon$ превращают £energy£ §Y$energy$§! в £stability£ §Y$MOD_PLANET_STABILITY_ADD$§! для планеты-хоста станции"
+  job_giga_elysium_controller_drone_swap_plural_with_icon:0 "[giga_elysium_controller_drone.GetIcon] [giga_elysium_controller_drone.GetNamePlural]"
+  mod_job_giga_elysium_controller_drone_add:0 "[giga_elysium_controller_drone.GetName] Должности"
+  mod_job_giga_elysium_controller_drone_per_pop:0 "§G+1§! Должность [giga_elysium_controller_drone.GetName] на каждые $VALUE$ Поп"
+  mod_job_giga_elysium_controller_drone_per_pop_short:0 "\n§G+1§! £mod_job_giga_elysium_controller_add£ на $VALUE$ £pop£"
   
   # extra bit for the origin effect
-  job_giga_elysium_controller_origin_effect_desc:99 "and £job£ §YJob Output§! "
-  giga_elysium_from_station:99 "From $orbital_elysium$"
+  job_giga_elysium_controller_origin_effect_desc:0 "и £job£ §YПроизводительность должностей§! "
+  giga_elysium_from_station:0 "Со станции $orbital_elysium$"
