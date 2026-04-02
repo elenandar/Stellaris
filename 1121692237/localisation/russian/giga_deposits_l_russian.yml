@@ -27,8 +27,8 @@
   d_alderson_ruined_district_desc:0 "Расчистка Альдерсона - задача гигантских размеров, но мы должны с чего-то начать."
   d_alderson_ruined_district_cleared:0 "Максимум районов: §G+1§!"
   
-  d_alderson_lost01:99 "$d_birch_lost01$"
-  d_alderson_lost01_desc:99 "$d_birch_lost01_desc$"
+  d_alderson_lost01:0 "$d_birch_lost01$"
+  d_alderson_lost01_desc:0 "$d_birch_lost01_desc$"
   d_alderson_lost01_cleared:0 "Получите §B1 £pops£Население§! на §Y[root.GetName]§!\nОчистка всех заблокированных §Y$d_alderson_lost01$§! снизит стоимость §Y$d_alderson_ruined_district$§! на §G50%§!"
   
   d_alderson_ruined_housing:0 "Обширные трущобы"
@@ -51,9 +51,9 @@
   d_alderson_ruined_mining_drone_desc:0 "Расчистка Альдерсона - задача гигантских размеров, но мы должны с чего-то начать."
   d_alderson_ruined_mining_drone_cleared:0 "Дроны-шахтеры: §G+5%§!\nОчистка всех заблокированных §Y$d_alderson_ruined_mining_drone_hive$§! снизит стоимость §Y$d_alderson_ruined_district$§! на §G50%§!"
   
-  d_alderson_ruined_mining_drone_hive:99 "$d_alderson_ruined_mining_drone$"
-  d_alderson_ruined_mining_drone_hive_desc:99 "$d_alderson_ruined_mining_drone_desc$"
-  d_alderson_ruined_mining_drone_hive_cleared:99 "Mining Drone Jobs: §G+5%§!\nClearing all of the §Y$d_alderson_ruined_mining_drone_hive$§! blockers will reduce the cost of §Y$d_alderson_ruined_district$§! by §G50%§!"
+  d_alderson_ruined_mining_drone_hive:0 "$d_alderson_ruined_mining_drone$"
+  d_alderson_ruined_mining_drone_hive_desc:0 "$d_alderson_ruined_mining_drone_desc$"
+  d_alderson_ruined_mining_drone_hive_cleared:0 "Дроны-шахтёры: §G+5%§!\nОчистка всех заблокированных §Y$d_alderson_ruined_mining_drone_hive$§! снизит стоимость §Y$d_alderson_ruined_district$§! на §G50%§!"
   
   d_alderson_ruined_farmer:0 "Загрязненная почва"
   d_alderson_ruined_farmer_desc:0 "Расчистка Альдерсона - задача гигантских размеров, но мы должны с чего-то начать."
@@ -63,9 +63,9 @@
   d_alderson_ruined_agri_drone_desc:0 "Расчистка Альдерсона - задача гигантских размеров, но мы должны с чего-то начать."
   d_alderson_ruined_agri_drone_cleared:0 "Дроны-фермеры: §G+5%§!\nОчистка всех заблокированных §Y$d_alderson_ruined_agri_drone_hive$§! снизит стоимость §Y$d_alderson_ruined_district$§! на §G50%§!"
   
-  d_alderson_ruined_agri_drone_hive:99 "$d_alderson_ruined_agri_drone$"
-  d_alderson_ruined_agri_drone_hive_desc:99 "$d_alderson_ruined_agri_drone_desc$"
-  d_alderson_ruined_agri_drone_hive_cleared:99 "Agri Drone Jobs: §G+5%§!\nClearing all of the §Y$d_alderson_ruined_agri_drone_hive$§! blockers will reduce the cost of §Y$d_alderson_ruined_district$§! by §G50%§!"
+  d_alderson_ruined_agri_drone_hive:0 "$d_alderson_ruined_agri_drone$"
+  d_alderson_ruined_agri_drone_hive_desc:0 "$d_alderson_ruined_agri_drone_desc$"
+  d_alderson_ruined_agri_drone_hive_cleared:0 "Агро-дроны: §G+5%§!\nОчистка всех заблокированных §Y$d_alderson_ruined_agri_drone_hive$§! снизит стоимость §Y$d_alderson_ruined_district$§! на §G50%§!"
   
   d_alderson_ruined_technician_hive:0 "Открытое ядро"
   d_alderson_ruined_technician_hive_desc:0 "Расчистка Альдерсона - задача гигантских размеров, но мы должны с чего-то начать."
@@ -79,9 +79,9 @@
   d_alderson_ruined_maintenance_drone_desc:0 "Расчистка Альдерсона - задача гигантских размеров, но мы должны с чего-то начать."
   d_alderson_ruined_maintenance_drone_cleared:0 "Дроны обслуживания: §G+5%§!\nОчистка всех заблокированных §Y$d_alderson_ruined_maintenance_drone_hive$§! снизит стоимость §Y$d_alderson_ruined_district$§! на §G50%§!"
   
-  d_alderson_ruined_maintenance_drone_hive:99 "$d_alderson_ruined_maintenance_drone$"
-  d_alderson_ruined_maintenance_drone_hive_desc:99 "$d_alderson_ruined_maintenance_drone_desc$"
-  d_alderson_ruined_maintenance_drone_hive_cleared:99 "Maintenance Drone Jobs: §G+5%§!\nClearing all of the §Y$d_alderson_ruined_maintenance_drone_hive$§! blockers will reduce the cost of §Y$d_alderson_ruined_district$§! by §G50%§!"
+  d_alderson_ruined_maintenance_drone_hive:0 "$d_alderson_ruined_maintenance_drone$"
+  d_alderson_ruined_maintenance_drone_hive_desc:0 "$d_alderson_ruined_maintenance_drone_desc$"
+  d_alderson_ruined_maintenance_drone_hive_cleared:0 "Дроны обслуживания: §G+5%§!\nОчистка всех заблокированных §Y$d_alderson_ruined_maintenance_drone_hive$§! снизит стоимость §Y$d_alderson_ruined_district$§! на §G50%§!"
   
   d_alderson_ruined_clerk:0 "Разрушенное хранилище"
   d_alderson_ruined_clerk_desc:0 "Расчистка Альдерсона - задача гигантских размеров, но мы должны с чего-то начать."
@@ -115,56 +115,56 @@
   ### Resource Deposits ###################
   #########################################
   
-  d_giga_supertensiles_1:99 "£giga_sr_amb_megaconstruction£ +1"
-  d_giga_supertensiles_1_desc:99 ""
-  d_giga_supertensiles_2:99 "£giga_sr_amb_megaconstruction£ +2"
-  d_giga_supertensiles_2_desc:99 ""
-  d_iodizium_deposit:99 "£giga_sr_iodizium£ +3"
-  d_iodizium_deposit_1:99 "£giga_sr_iodizium£ +1"
-  d_nicoll_deposit:99 "£minerals£ +10"
-  d_depletedstripmine_deposit:99 "£minerals£ +20"
-  d_nicollboom_deposit:99 "£minerals£ +15"
-  d_pouchkinn_deposit:99 "£physics£ +35"
-  d_ringworld_deposit:99 "£energy£ +50"
-  d_succ_deposit:99 "£minerals£ +10 £exotic_gases£ +5 £rare_crystals£ +5"
-  d_giga_hab_nanites_1:99 "£nanites£ +1"
-  d_giga_hab_consumer_goods_1:99 "£consumer_goods£ +1"
-  d_giga_hab_astral_threads_1:99 "£astral_threads£ +1"
-  d_subsurface_ocean_deposit_1:99 "£food£ +4 £society£ +4"
-  d_iodizium_deposit_desc:99 ""
-  d_iodizium_deposit_1_desc:99 ""
-  d_nicoll_deposit_desc:99 ""
-  d_depletedstripmine_deposit_desc:99 ""
-  d_nicollboom_deposit_desc:99 ""
-  d_pouchkinn_deposit_desc:99 ""
-  d_ringworld_deposit_desc:99 ""
-  d_succ_deposit_desc:99 ""
-  d_giga_hab_nanites_1_desc:99 ""
-  d_giga_hab_consumer_goods_1_desc:99 ""
-  d_giga_hab_astral_threads_1_desc:99 ""
-  d_subsurface_ocean_deposit_1_desc:99 ""
+  d_giga_supertensiles_1:0 "£giga_sr_amb_megaconstruction£ +1"
+  d_giga_supertensiles_1_desc:0 ""
+  d_giga_supertensiles_2:0 "£giga_sr_amb_megaconstruction£ +2"
+  d_giga_supertensiles_2_desc:0 ""
+  d_iodizium_deposit:0 "£giga_sr_iodizium£ +3"
+  d_iodizium_deposit_1:0 "£giga_sr_iodizium£ +1"
+  d_nicoll_deposit:0 "£minerals£ +10"
+  d_depletedstripmine_deposit:0 "£minerals£ +20"
+  d_nicollboom_deposit:0 "£minerals£ +15"
+  d_pouchkinn_deposit:0 "£physics£ +35"
+  d_ringworld_deposit:0 "£energy£ +50"
+  d_succ_deposit:0 "£minerals£ +10 £exotic_gases£ +5 £rare_crystals£ +5"
+  d_giga_hab_nanites_1:0 "£nanites£ +1"
+  d_giga_hab_consumer_goods_1:0 "£consumer_goods£ +1"
+  d_giga_hab_astral_threads_1:0 "£astral_threads£ +1"
+  d_subsurface_ocean_deposit_1:0 "£food£ +4 £society£ +4"
+  d_iodizium_deposit_desc:0 ""
+  d_iodizium_deposit_1_desc:0 ""
+  d_nicoll_deposit_desc:0 ""
+  d_depletedstripmine_deposit_desc:0 ""
+  d_nicollboom_deposit_desc:0 ""
+  d_pouchkinn_deposit_desc:0 ""
+  d_ringworld_deposit_desc:0 ""
+  d_succ_deposit_desc:0 ""
+  d_giga_hab_nanites_1_desc:0 ""
+  d_giga_hab_consumer_goods_1_desc:0 ""
+  d_giga_hab_astral_threads_1_desc:0 ""
+  d_subsurface_ocean_deposit_1_desc:0 ""
   
   #########################################
   ### Lifeless World Deposits #############
   #########################################
   
-  d_giga_lifeless_zro_1:99 "Zro Deposit"
-  d_giga_lifeless_zro_1_desc:99 "This world has an exploitable source of zro dust."
+  d_giga_lifeless_zro_1:0 "Месторождение Зро"
+  d_giga_lifeless_zro_1_desc:0 "На этой планете есть пригодный для добычи источник пыли зро."
   
-  d_giga_lifeless_dark_matter_1:99 "Dark Matter Deposit"
-  d_giga_lifeless_dark_matter_1_desc:99 "This world has an exploitable source of dark matter."
+  d_giga_lifeless_dark_matter_1:0 "Месторождение тёмной материи"
+  d_giga_lifeless_dark_matter_1_desc:0 "На этой планете есть пригодный для добычи источник тёмной материи."
   
-  d_giga_lifeless_living_metal_1:99 "Living Metal Deposit"
-  d_giga_lifeless_living_metal_1_desc:99 "This world has an exploitable source of living metal."
+  d_giga_lifeless_living_metal_1:0 "Месторождение живого металла"
+  d_giga_lifeless_living_metal_1_desc:0 "На этой планете есть пригодный для добычи источник живого металла."
   
-  d_giga_lifeless_nanites_1:99 "Nanite Deposit"
-  d_giga_lifeless_nanites_1_desc:99 "This world has an exploitable source of nanites."
+  d_giga_lifeless_nanites_1:0 "Месторождение нанитов"
+  d_giga_lifeless_nanites_1_desc:0 "На этой планете есть пригодный для добычи источник нанитов."
   
-  d_giga_lifeless_iodizium_1:99 "Iodizium Deposit"
-  d_giga_lifeless_iodizium_1_desc:99 "This world has an exploitable source of iodizium crystals."
+  d_giga_lifeless_iodizium_1:0 "Месторождение иодизиума"
+  d_giga_lifeless_iodizium_1_desc:0 "На этой планете есть пригодный для добычи источник кристаллов иодизиума."
   
-  d_giga_hab_iodizium_1:99 "Iodizium Deposit"
-  d_giga_hab_iodizium_1_desc:99 "This Habitat Complex is built near an exploitable iodizium crystal deposit."
+  d_giga_hab_iodizium_1:0 "Месторождение иодизиума"
+  d_giga_hab_iodizium_1_desc:0 "Этот орбитальный комплекс построен вблизи пригодного для добычи месторождения кристаллов иодизиума."
   
   #########################################
   ### Mega Deposits ######################
@@ -181,11 +181,11 @@
   d_arcane_mineral_generator:0 "Волшебный преобразователь"
   d_arcane_mineral_generator_desc:0 "Древнее устройство волшебного производства, которое добывает полезные ископаемые, казалось бы, из воздуха."
   
-  d_giga_orbital_effects:99 "System Transport Network"
-  d_giga_orbital_effects_desc:99 "The $name_giga_orbital$ in this system dominates local logistical planning."
+  d_giga_orbital_effects:0 "Транспортная сеть системы"
+  d_giga_orbital_effects_desc:0 "$name_giga_orbital$ в этой системе определяет местное логистическое планирование."
   
-  d_pcc_origin_blocker:99 "Decayed Conduit"
-  d_pcc_origin_blocker_desc:99 "Large portions of the planet's huge processing arrays are currently unreachable from our research facilities due to damaged connections between computational subsections."
+  d_pcc_origin_blocker:0 "Повреждённый канал"
+  d_pcc_origin_blocker_desc:0 "Большие части огромных вычислительных массивов планеты в настоящее время недоступны из наших исследовательских объектов из-за повреждённых соединений между вычислительными подсекциями."
   
   d_giga_rogue_ai_relay_servers:0 "Разбойные массивы процессоров"
   d_giga_rogue_ai_relay_servers_desc:0 "Огромные массивы процессоров и серверов, используемые ИИ-разбойником для проецирования своей мощности на Планетарный вычислительный комплекс, чтобы бороться с нами на каждом шагу, саботируя инфраструктуру и активно пытаясь убить наших колонистов."
@@ -202,52 +202,52 @@
   d_great_ring_excavated_mountain:0 "Узел системы самовосстановления Мира-кольца"
   d_great_ring_excavated_mountain_desc:0 "Открытый узел автоматической системы самовосстановления кольцевого мира. Он непрерывно генерирует материю, необходимую для поддержания мегаструктуры в рабочем состоянии. И если мы будем осторожны, мы сможем перекачать часть этого материала для собственных нужд без ущерба для нашего искусственного дома."
   
-  d_giga_arcane_generator:99 "$d_arcane_generator$"
-  d_giga_arcane_generator_desc:99 "$d_arcane_generator_desc$"
+  d_giga_arcane_generator:0 "$d_arcane_generator$"
+  d_giga_arcane_generator_desc:0 "$d_arcane_generator_desc$"
   
   
-  d_decrepit_tunnels_squareworld:99 "$d_decrepit_tunnels_1$"
-  d_decrepit_tunnels_squareworld_desc:99 "$d_decrepit_tunnels_1_desc$"
+  d_decrepit_tunnels_squareworld:0 "$d_decrepit_tunnels_1$"
+  d_decrepit_tunnels_squareworld_desc:0 "$d_decrepit_tunnels_1_desc$"
   
-  d_predictable_solar_flares:99 "Predictable Solar Flares"
-  d_predictable_solar_flares_desc:99 "The star our homeworld orbits around exhibits specific behavior preceding a solar flare, making energy extraction significantly easier."
+  d_predictable_solar_flares:0 "Предсказуемые солнечные вспышки"
+  d_predictable_solar_flares_desc:0 "Звезда, вокруг которой вращается наш родной мир, демонстрирует специфическое поведение перед солнечной вспышкой, что значительно облегчает извлечение энергии."
   
   d_everfree_forest:0 "Вечнозелёный лес"
   d_everfree_forest_desc:0 "Своеобразный и почти непроходимый лес, наполненный, казалось бы, магической энергией. Расчистить его было бы задачей гигантских масштабов, но изучение его эзотерической экосистемы, несомненно, даст интригующие данные."
   
-  d_giga_decrepit_tunnels_1:99 "$d_decrepit_tunnels_1$"
-  d_giga_decrepit_tunnels_1_desc:99 "$d_decrepit_tunnels_1_desc$"
+  d_giga_decrepit_tunnels_1:0 "$d_decrepit_tunnels_1$"
+  d_giga_decrepit_tunnels_1_desc:0 "$d_decrepit_tunnels_1_desc$"
   
-  d_giga_decrepit_tunnels_2:99 "$d_decrepit_tunnels_1$"
-  d_giga_decrepit_tunnels_2_desc:99 "$d_decrepit_tunnels_1_desc$"
+  d_giga_decrepit_tunnels_2:0 "$d_decrepit_tunnels_1$"
+  d_giga_decrepit_tunnels_2_desc:0 "$d_decrepit_tunnels_1_desc$"
   
-  d_giga_decrepit_tunnels_3:99 "$d_decrepit_tunnels_1$"
-  d_giga_decrepit_tunnels_3_desc:99 "$d_decrepit_tunnels_1_desc$"
+  d_giga_decrepit_tunnels_3:0 "$d_decrepit_tunnels_1$"
+  d_giga_decrepit_tunnels_3_desc:0 "$d_decrepit_tunnels_1_desc$"
   
   d_ehof_solar_array:0 "Безупречные солнечные коллекторы"
-  d_ehof_solar_array_desc:99 ""
+  d_ehof_solar_array_desc:0 ""
   
-  d_flusio_arcology_wreck:99 "Wrecked Megacities"
-  d_flusio_arcology_wreck_desc:99 "Cities partially or completely destroyed in the fighting that occurred on the Flusio-Arcology."
-  d_flusio_arcology_anarchy:99 "Flusionian Anarchy"
-  d_flusio_arcology_anarchy_desc:99 "Large swathes of Flusion have fallen into complete anarchy as a result of collateral damage from the devastating fighting to dislodge the Kaiser from the planet."
+  d_flusio_arcology_wreck:0 "Разрушенные мегаполисы"
+  d_flusio_arcology_wreck_desc:0 "Города, частично или полностью разрушенные в ходе боёв на Флузио-Аркологии."
+  d_flusio_arcology_anarchy:0 "Флузионская анархия"
+  d_flusio_arcology_anarchy_desc:0 "Обширные районы Флузиона погрузились в полную анархию в результате сопутствующего ущерба от опустошительных боёв с целью вытеснения Кайзера с планеты."
   
-  d_flusio_arcology_administration:99 "Flusio-Arcology Administration"
-  d_flusio_arcology_administration_desc:99 "Administering the logistical nightmare that surrounds Flusion is no easy task. Due to the immense number of districts the Flusio-Arcology can support, more care must be taken to manage it properly."
+  d_flusio_arcology_administration:0 "Администрация Флузио-Аркологии"
+  d_flusio_arcology_administration_desc:0 "Управление логистическим кошмаром, окружающим Флузион, — нелёгкая задача. Из-за огромного количества районов, которые способна поддерживать Флузио-Аркология, её правильное управление требует большей осторожности."
   
-  d_flusio_arcology_administration_tooltip:99 "[giga_flusion_administration_mechanics]"
+  d_flusio_arcology_administration_tooltip:0 "[giga_flusion_administration_mechanics]"
   
-  d_solaktropa_project:99 "Roqualtropa Project"
-  d_solaktropa_project_desc:99 "The Roqualtropa Project creates vast quantities of useable land for the Katzens to build upon as well as tremendous quantities of water for agriculture, at the cost of disturbing Flusion's natural climate."
+  d_solaktropa_project:0 "Проект Рокуалтропа"
+  d_solaktropa_project_desc:0 "Проект Рокуалтропа создаёт огромные количества пригодных для застройки земель для Кацценов, а также колоссальные количества воды для сельского хозяйства, ценой нарушения естественного климата Флузиона."
   
-  d_solaktropa_project_wreck:99 "Roqualtropa Wreck"
-  d_solaktropa_project_wreck_desc:99 "The destruction of the Roqualtropa Dam has caused untold quantities of devastation to Flusion and its inhabitants."
+  d_solaktropa_project_wreck:0 "Руины Рокуалтропы"
+  d_solaktropa_project_wreck_desc:0 "Разрушение плотины Рокуалтропа причинило неисчислимые разрушения Флузиону и его обитателям."
   
-  d_katlantropa_project:99 "Katlantropa Project"
-  d_katlantropa_project_desc:99 "The Katlantropa Project irrigates formerly desertic areas, rendering them suitable for agriculture and irrigation."
+  d_katlantropa_project:0 "Проект Катлантропа"
+  d_katlantropa_project_desc:0 "Проект Катлантропа орошает бывшие пустынные районы, делая их пригодными для сельского хозяйства и ирригации."
   
-  d_katlantropa_project_wreck:99 "Katlantropa Desertification"
-  d_katlantropa_project_wreck_desc:99 "The destruction of Katlantropa has reverted formerly arable areas into vast deserts."
+  d_katlantropa_project_wreck:0 "Опустынивание Катлантропа"
+  d_katlantropa_project_wreck_desc:0 "Разрушение Катлантропа превратило бывшие пахотные земли в обширные пустыни."
   
   
   #########################################
